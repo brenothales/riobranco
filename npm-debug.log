@@ -1,0 +1,1634 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'cordova' ]
+2 info using npm@1.3.1
+3 info using node@v0.10.12
+4 verbose cache add [ 'cordova', null ]
+5 verbose cache add name=undefined spec="cordova" args=["cordova",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'cordova',
+6 verbose parsed url   path: 'cordova',
+6 verbose parsed url   href: 'cordova' }
+7 silly lockFile a98f2055-cordova cordova
+8 verbose lock cordova /Users/brenothales/.npm/a98f2055-cordova.lock
+9 silly lockFile a98f2055-cordova cordova
+10 silly lockFile a98f2055-cordova cordova
+11 verbose addNamed [ 'cordova', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile de8d9fad-cordova cordova@
+14 verbose lock cordova@ /Users/brenothales/.npm/de8d9fad-cordova.lock
+15 silly addNameRange { name: 'cordova', range: '*', hasData: false }
+16 verbose url raw cordova
+17 verbose url resolving [ 'https://registry.npmjs.org/', './cordova' ]
+18 verbose url resolved https://registry.npmjs.org/cordova
+19 info trying registry request attempt 1 at 16:57:36
+20 verbose etag "O6OSN7WDK639HVP0V5PT7KJ9"
+21 http GET https://registry.npmjs.org/cordova
+22 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+23 info trying registry request attempt 2 at 16:59:01
+24 verbose etag "O6OSN7WDK639HVP0V5PT7KJ9"
+25 http GET https://registry.npmjs.org/cordova
+26 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+27 info trying registry request attempt 3 at 17:01:16
+28 verbose etag "O6OSN7WDK639HVP0V5PT7KJ9"
+29 http GET https://registry.npmjs.org/cordova
+30 silly registry.get cb [ 304, undefined ]
+31 verbose etag cordova from cache
+32 silly addNameRange number 2 { name: 'cordova', range: '*', hasData: true }
+33 silly addNameRange versions [ 'cordova',
+33 silly addNameRange   [ '0.0.1',
+33 silly addNameRange     '0.0.2',
+33 silly addNameRange     '0.0.3',
+33 silly addNameRange     '0.0.4',
+33 silly addNameRange     '0.0.5',
+33 silly addNameRange     '0.0.6',
+33 silly addNameRange     '0.0.7',
+33 silly addNameRange     '0.0.8',
+33 silly addNameRange     '0.0.9',
+33 silly addNameRange     '0.1.0',
+33 silly addNameRange     '0.1.1',
+33 silly addNameRange     '0.1.2',
+33 silly addNameRange     '0.1.3',
+33 silly addNameRange     '0.1.4',
+33 silly addNameRange     '0.1.5',
+33 silly addNameRange     '0.1.6',
+33 silly addNameRange     '0.1.7',
+33 silly addNameRange     '0.1.8',
+33 silly addNameRange     '0.1.9',
+33 silly addNameRange     '0.1.10',
+33 silly addNameRange     '0.1.11',
+33 silly addNameRange     '0.1.12',
+33 silly addNameRange     '0.1.13',
+33 silly addNameRange     '0.1.14',
+33 silly addNameRange     '2.2.0',
+33 silly addNameRange     '2.3.0',
+33 silly addNameRange     '2.3.1',
+33 silly addNameRange     '2.3.2',
+33 silly addNameRange     '2.3.3',
+33 silly addNameRange     '2.3.5',
+33 silly addNameRange     '2.3.6',
+33 silly addNameRange     '2.4.0',
+33 silly addNameRange     '2.4.1',
+33 silly addNameRange     '2.4.2',
+33 silly addNameRange     '2.4.3',
+33 silly addNameRange     '2.4.4',
+33 silly addNameRange     '2.4.5',
+33 silly addNameRange     '2.4.6',
+33 silly addNameRange     '2.4.7',
+33 silly addNameRange     '2.4.8',
+33 silly addNameRange     '2.4.9',
+33 silly addNameRange     '2.4.10',
+33 silly addNameRange     '2.5.0',
+33 silly addNameRange     '2.5.2',
+33 silly addNameRange     '2.5.3',
+33 silly addNameRange     '2.5.4',
+33 silly addNameRange     '2.5.5',
+33 silly addNameRange     '2.6.0',
+33 silly addNameRange     '2.6.1',
+33 silly addNameRange     '2.6.2',
+33 silly addNameRange     '2.7.0-rc.1',
+33 silly addNameRange     '2.7.1-rc.1',
+33 silly addNameRange     '2.7.2',
+33 silly addNameRange     '2.7.3',
+33 silly addNameRange     '2.7.4',
+33 silly addNameRange     '2.8.0',
+33 silly addNameRange     '2.8.1',
+33 silly addNameRange     '2.8.2',
+33 silly addNameRange     '2.8.3',
+33 silly addNameRange     '2.8.4',
+33 silly addNameRange     '2.8.5',
+33 silly addNameRange     '2.8.6',
+33 silly addNameRange     '2.8.7',
+33 silly addNameRange     '2.8.8',
+33 silly addNameRange     '2.8.9',
+33 silly addNameRange     '2.8.10',
+33 silly addNameRange     '2.8.11',
+33 silly addNameRange     '2.8.12',
+33 silly addNameRange     '2.8.13',
+33 silly addNameRange     '2.8.14',
+33 silly addNameRange     '2.8.15',
+33 silly addNameRange     '2.8.16',
+33 silly addNameRange     '2.8.17',
+33 silly addNameRange     '2.8.18',
+33 silly addNameRange     '2.8.19',
+33 silly addNameRange     '2.8.20',
+33 silly addNameRange     '2.8.21',
+33 silly addNameRange     '2.8.22',
+33 silly addNameRange     '2.8.23',
+33 silly addNameRange     '2.8.24',
+33 silly addNameRange     '2.8.25',
+33 silly addNameRange     '2.9.0',
+33 silly addNameRange     '2.9.1',
+33 silly addNameRange     '2.9.2',
+33 silly addNameRange     '2.9.3',
+33 silly addNameRange     '2.9.4',
+33 silly addNameRange     '2.9.5',
+33 silly addNameRange     '2.9.6',
+33 silly addNameRange     '2.9.7',
+33 silly addNameRange     '3.0.0-rc1',
+33 silly addNameRange     '3.0.0-rc1-1',
+33 silly addNameRange     '3.0.0-rc1-3',
+33 silly addNameRange     '3.0.0',
+33 silly addNameRange     '3.0.1',
+33 silly addNameRange     '3.0.2',
+33 silly addNameRange     '3.0.3',
+33 silly addNameRange     '3.0.4',
+33 silly addNameRange     '3.0.5',
+33 silly addNameRange     '3.0.6',
+33 silly addNameRange     '3.0.7',
+33 silly addNameRange     '3.0.8',
+33 silly addNameRange     '3.0.9',
+33 silly addNameRange     '3.0.10',
+33 silly addNameRange     '3.1.0-0.1.0',
+33 silly addNameRange     '2.9.0-rc1' ] ]
+34 verbose addNamed [ 'cordova', '3.1.0-0.1.0' ]
+35 verbose addNamed [ '3.1.0-0.1.0', '3.1.0-0.1.0' ]
+36 silly lockFile 72286232-cordova-3-1-0-0-1-0 cordova@3.1.0-0.1.0
+37 verbose lock cordova@3.1.0-0.1.0 /Users/brenothales/.npm/72286232-cordova-3-1-0-0-1-0.lock
+38 silly lockFile 72286232-cordova-3-1-0-0-1-0 cordova@3.1.0-0.1.0
+39 silly lockFile 72286232-cordova-3-1-0-0-1-0 cordova@3.1.0-0.1.0
+40 silly lockFile de8d9fad-cordova cordova@
+41 silly lockFile de8d9fad-cordova cordova@
+42 silly resolved [ { name: 'cordova',
+42 silly resolved     version: '3.1.0-0.1.0',
+42 silly resolved     preferGlobal: 'true',
+42 silly resolved     description: 'Cordova command line interface tool',
+42 silly resolved     main: 'cordova',
+42 silly resolved     engines: { node: '>=0.9.9' },
+42 silly resolved     engineStrict: true,
+42 silly resolved     bin: { cordova: './bin/cordova' },
+42 silly resolved     scripts: { test: 'jasmine-node --color spec' },
+42 silly resolved     repository:
+42 silly resolved      { type: 'git',
+42 silly resolved        url: 'https://git-wip-us.apache.org/repos/asf/cordova-cli.git' },
+42 silly resolved     bugs:
+42 silly resolved      { url: 'https://issues.apache.org/jira/browse/CB',
+42 silly resolved        email: 'dev@cordova.apache.org' },
+42 silly resolved     keywords: [ 'cordova', 'client', 'cli' ],
+42 silly resolved     dependencies:
+42 silly resolved      { colors: '>=0.6.0',
+42 silly resolved        elementtree: '0.1.5',
+42 silly resolved        plugman: '0.13.x',
+42 silly resolved        plist: '0.4.x',
+42 silly resolved        xcode: '0.5.1',
+42 silly resolved        express: '3.0.0',
+42 silly resolved        shelljs: '0.1.2',
+42 silly resolved        ncallbacks: '1.0.0',
+42 silly resolved        request: '2.22.0',
+42 silly resolved        'ripple-emulator': '0.9.18',
+42 silly resolved        semver: '1.1.0',
+42 silly resolved        glob: '3.2.x',
+42 silly resolved        'follow-redirects': '0.0.x',
+42 silly resolved        prompt: '0.2.7',
+42 silly resolved        tar: '0.1.x',
+42 silly resolved        open: '0.0.3',
+42 silly resolved        npm: '1.3.x',
+42 silly resolved        optimist: '0.6.0',
+42 silly resolved        mime: '~1.2.11' },
+42 silly resolved     devDependencies: { 'jasmine-node': '1.8.x' },
+42 silly resolved     author: { name: 'Anis Kadri' },
+42 silly resolved     contributors:
+42 silly resolved      [ [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object] ],
+42 silly resolved     license: 'Apache version 2.0',
+42 silly resolved     readme: '<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# "License"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n# \n# http://www.apache.org/licenses/LICENSE-2.0\n# \n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n# cordova-cli\n\n> The command line tool to build, deploy and manage [Cordova](http://cordova.io)-based applications.\n\n[Apache Cordova](http://cordova.io) allows for building native mobile applications using HTML, CSS and JavaScript. This tool helps with management of multi-platform Cordova applications as well as Cordova plugin integration.\n\nCheck out the [Getting Started guides](http://cordova.apache.org/docs/en/edge/guide_getting-started_index.md.html#Getting%20Started%20Guides) for more details on how to work with Cordova sub-projects.\n\n# Supported Platforms\n\n- Android\n- BlackBerry 10\n- iOS\n- Windows Phone 7 &amp; 8\n\n# Requirements\n\n* [nodejs](http://nodejs.org/)\n* SDKs for every platform you wish to support\n  - BlackBerry 10: [BlackBerry 10 WebWorks SDK](http://developer.blackberry.com/html5/download/). Make sure you have the `dependencies/tools/bin` folder inside the SDK directory added to your path!\n  - iOS: [iOS SDK](http://developer.apple.com) with the latest Xcode and Xcode Command Line Tools\n  - [Android SDK](http://developer.android.com) - **NOTE** This tool\n    will not work unless you have the absolute latest updates for all\n    Android SDK components. Also you will need the SDK\'s `tools` and `platform-tools` directories on your __system path__ otherwise Android support will fail.\n  - [Windows Phone SDK](http://dev.windowsphone.com/en-us/downloadsdk) - **NOTE** This tool will not work unless you have `msbuild` on your __system path__ otherwise Windows Phone support will fail (`msbuild.exe` is generally located in `C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319`).\n\ncordova-cli has been tested on Mas OS X, Linux, Windows 7 and Windows 8.\n\n# Install\n\n    npm install -g cordova\n\n# Getting Started\n\ncordova-cli has a single global `create` command that creates new cordova projects into a specified directory. Once you create a project, `cd` into it and you can execute a variety of project-level commands. Completely inspired by git\'s interface.\n\n## Global Command\n\n- `create <directory> [<id> [<name>]]` create a new cordova project with optional name and id (package name, reverse-domain style)\n\n<a name="project_commands" />\n## Project Commands\n\n- `platform [ls | list]` list all platforms the project will build to\n- `platform add <platform> [<platform> ...]` add one (or more) platforms as a build target for the project\n- `platform [rm | remove] <platform> [<platform> ...]` removes one (or more) platforms as a build target for the project\n- `plugin [ls | list]` list all plugins added to the project\n- `plugin add <path-to-plugin> [<path-to-plugin> ...]` add one (or more) plugins to the project\n- `plugin [rm | remove] <plugin-name> [<plugin-name> ...]` remove one (or more) added plugins\n- `prepare [platform...]` copies files into the specified platforms, or all platforms. it is then ready for building by Eclipse/Xcode/etc.\n- `compile [platform...]` compiles the app into a binary for each added platform. With no parameters, builds for all platforms, otherwise builds for the specified platforms.\n- `build [<platform> [<platform> [...]]]` an alias for `cordova prepare` followed by `cordova compile`\n- `emulate [<platform> [<platform> [...]]]` launch emulators and deploy app to them. With no parameters emulates for all platforms added to the project, otherwise emulates for the specified platforms\n- `serve <platform> [port]` launch a local web server for that platform\'s www directory on the given port (default 8000).\n\n### Optional Flags\n\n- `-d` or `--verbose` will pipe out more verbose output to your shell. You can also subscribe to `log` and `warn` events if you are consuming cordova-cli as a node module by calling `cordova.on(\'log\', function() {})` or `cordova.on(\'warn\', function() {})`.\n- `-v` or `--version` will print out the version of your cordova-cli install.\n\n# Project Directory Structure\nA Cordova application built with cordova-cli will have the following directory structure:\n\n    myApp/\n    |--.cordova/\n    |-- merges/\n    | | |-- android/\n    | | |-- blackberry10/\n    | | `-- ios/\n    |-- www/\n    | `-- config.xml\n    |-- platforms/\n    | |-- android/\n    | |-- blackberry10/\n    | `-- ios/\n    `-- plugins/\n\n## .cordova/\nThis directory identifies a tree as a cordova project. Simple configuration information is stored in here (such as BlackBerry environment variables).\n\nCommands other than `create` operate against the project directory itself, rather than the current directory - a search up the current directory\'s parents is made to find the project directory. Thus, any command (other than `create`) can be used from any subdirectory whose parent is a cordova project directory (same as git).\n\n## merges/\nPlatform-specific web assets (HTML, CSS and JavaScript files) are contained within appropriate subfolders in this directory. These are deployed during a `prepare` to the appropriate native directory.  Files placed under `merges/` will override matching files in the `www/` folder for the relevant platform. A quick example, assuming a project structure of:\n\n    merges/\n    |-- ios/\n    | `-- app.js\n    |-- android/\n    | `-- android.js\n    www/\n    `-- app.js\n\nAfter building the Android and iOS projects, the Android application will contain both `app.js` and `android.js`. However, the iOS application will only contain an `app.js`, and it will be the one from `merges/ios/app.js`, overriding the "common" `app.js` located inside `www/`.\n\n## www/\n\nContains the project\'s web artifacts, such as .html, .css and .js files. These are your main application assets. They will be copied on a `cordova prepare` to each platform\'s www directory.\n\n### Your Blanket: config.xml\n\nThis file is what you should be editing to modify your application\'s metadata. Any time you run any cordova-cli commands, the tool will look at the contents of `config.xml` and use all relevant info from this file to define native application information. cordova-cli supports changing your application\'s data via the following elements inside the `config.xml` file:\n\n- The user-facing name can be modified via the contents of the `<name>` element.\n- The package name (AKA bundle identifier or application id) can be modified via the `id` attribute from the top-level `<widget>` element.\n- The version can be modified via the `version` attribute from the top-level `<widget>` element.\n- The whitelist can be modified using the `<access>` elements. Make sure the `origin` attribute of your `<access>` element points to a valid URL (you can use `*` as wildcard). For more information on the whitelisting syntax, see the [docs.phonegap.com](http://docs.phonegap.com/en/2.2.0/guide_whitelist_index.md.html#Domain%20Whitelist%20Guide). You can use either attribute `uri` ([BlackBerry-proprietary](https://developer.blackberry.com/html5/documentation/access_element_834677_11.html)) or `origin` ([standards-compliant](http://www.w3.org/TR/widgets-access/#attributes)) to denote the domain.\n- Platform-specific preferences can be customized via `<preference>` tags. See [docs.phonegap.com](http://docs.phonegap.com/en/2.3.0/guide_project-settings_index.md.html#Project%20Settings) for a list of preferences you can use.\n- The entry/start page for your application can be defined via the `<content src>` element + attribute.\n\n## platforms/\nPlatforms added to your application will have the native application project structures laid out within this directory.\n\n## plugins/\nAny added plugins will be extracted or copied into this directory.\n\n# Hooks\n\nProjects created by cordova-cli have `before` and `after` hooks for each [project command](#project_commands).\n\nThere are two types of hooks: project-specific ones and module-level ones. Both of these types of hooks receive the project root folder as a parameter.\n\n## Project-specific Hooks\n\nThese are located under the `.cordova/hooks` directory in the root of your cordova project. Any scripts you add to these directories will be executed before and after the appropriate commands. Useful for integrating your own build systems or integrating with version control systems. __Remember__: make your scripts executable.\n\n### Examples\n\n- [`before_build` hook for jade template compiling](https://gist.github.com/4100866) courtesy of [dpogue](http://github.com/dpogue)\n\n## Module-level Hooks\n\nIf you are using cordova-cli as a module within a larger node application, you can also use the standard `EventEmitter` methods to attach to the events. The events include `before_build`, `before_compile`, `before_docs`, `before_emulate`, `before_run`, `before_platform_add`, `before_library_download`, `before_platform_ls`, `before_platform_rm`, `before_plugin_add`, `before_plugin_ls`, `before_plugin_rm` and `before_prepare`. There is also a `library_download` progress event. Additionally, there are `after_` flavours of all the above events.\n\nOnce you `require(\'cordova\')` in your node project, you will have the usual `EventEmitter` methods available (`on`, `off` or `removeListener`, `removeAllListeners`, and `emit` or `trigger`).\n\n# Examples\n\n## Creating a new cordova project\nThis example shows how to create a project from scratch named KewlApp with iOS and Android platform support, and includes a plugin named Kewlio. The project will live in ~/KewlApp\n\n    cordova create ~/KewlApp KewlApp\n    cd ~/KewlApp\n    cordova platform add ios android\n    cordova plugin add http://example.org/Kewlio-1.2.3.tar.gz\n    cordova build \n\nThe directory structure of KewlApp now looks like this:\n\n    KewlApp/\n    |-- .cordova/\n    |-- merges/\n    | |-- android/\n    | `-- ios/\n    |-- www/\n    | `-- index.html\n    |-- platforms/\n    | |-- android/\n    | | `-- …\n    | `-- ios/\n    |   `-- …\n    `-- plugins/\n      `-- Kewlio/\n\n# Contributing\n\n## Running Tests\n\n    npm test\n\n## TO-DO + Issues\n\nPlease check [Cordova issues with the CLI Component](http://issues.cordova.io). If you find issues with this tool, please be so kind as to include relevant information needed to debug issues such as:\n\n- Your operating system and version\n- The application name, directory location, and identifier used with `create`\n- Which mobile SDKs you have installed, and which version. Related to this: which Xcode version if you are submitting issues related to iOS\n- Any error stack traces you received\n\n## Contributors\n\nThanks to everyone for contributing! For a list of people involved, please see the `package.json` file.\n\n\n# Known Issues and Troubleshooting\n\n## Any OS\n\n### Proxy Settings\n\ncordova-cli will use `npm`\'s proxy settings. If you downloaded cordova-cli via `npm` and are behind a proxy, chances are cordova-cli should work for you as it will use those settings in the first place. Make sure that the `https-proxy` and `proxy` npm config variables are set properly. See [npm\'s configuration documentation](https://npmjs.org/doc/config.html) for more information.\n\n## Windows\n\n### Trouble Adding Android as a Platform\n\nWhen trying to add a platform on a Windows machine if you run into the following error message:\n    cordova library for "android" already exists. No need to download. Continuing.\n    Checking if platform "android" passes minimum requirements...\n    Checking Android requirements...\n    Running "android list target" (output to follow)\n    \n    Error: The command `android` failed. Make sure you have the latest Android SDK installed, and the `android` command (inside the tools/ folder) added t\n    o your path. Output:\n    at C:\\Users\\me\\AppData\\Roaming\\npm\\node_modules\\cordova\\src\\platform.js:185:42\n    at C:\\Users\\me\\AppData\\Roaming\\npm\\node_modules\\cordova\\src\\metadata\\android_parser.js:50:13\n    at C:\\Users\\me\\AppData\\Roaming\\npm\\node_modules\\cordova\\node_modules\\shelljs\\shell.js:1707:7\n    at exithandler (child_process.js:633:7)\n    at ChildProcess.errorhandler (child_process.js:649:5)\n    at ChildProcess.EventEmitter.emit (events.js:95:17)\n    at Process.ChildProcess._handle.onexit (child_process.js:787:12)\n\nrun the command "android list target".  If you see:\n    \'xcopy\' is not recognized as an internal or external command,\n    operable program or batch file.\n\nat the beginning of the command output, it means you will need to update your Windows Path variable to include xcopy. This location is typically under C:\\Windows\\System32. \n\n',
+42 silly resolved     readmeFilename: 'README.md',
+42 silly resolved     _id: 'cordova@3.1.0-0.1.0',
+42 silly resolved     _from: 'cordova@' } ]
+43 info install cordova@3.1.0-0.1.0 into /usr/local/lib
+44 info installOne cordova@3.1.0-0.1.0
+45 info /usr/local/lib/node_modules/cordova unbuild
+46 info preuninstall cordova@3.1.0-0.1.0
+47 info uninstall cordova@3.1.0-0.1.0
+48 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild cordova@3.1.0-0.1.0
+49 verbose /usr/local/bin,[object Object] binRoot
+50 info postuninstall cordova@3.1.0-0.1.0
+51 verbose tar unpack /Users/brenothales/.npm/cordova/3.1.0-0.1.0/package.tgz
+52 silly lockFile 9557e84b-r-local-lib-node-modules-cordova tar:///usr/local/lib/node_modules/cordova
+53 verbose lock tar:///usr/local/lib/node_modules/cordova /Users/brenothales/.npm/9557e84b-r-local-lib-node-modules-cordova.lock
+54 silly lockFile 39891258--cordova-3-1-0-0-1-0-package-tgz tar:///Users/brenothales/.npm/cordova/3.1.0-0.1.0/package.tgz
+55 verbose lock tar:///Users/brenothales/.npm/cordova/3.1.0-0.1.0/package.tgz /Users/brenothales/.npm/39891258--cordova-3-1-0-0-1-0-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry .npmignore
+59 silly gunzTarPerm extractEntry README.md
+60 silly gunzTarPerm extractEntry cordova.js
+61 silly gunzTarPerm extractEntry platforms.js
+62 silly gunzTarPerm extractEntry bin/cordova
+63 silly gunzTarPerm extractEntry templates/config.xml
+64 silly gunzTarPerm extractEntry .reviewboardrc
+65 silly gunzTarPerm extractEntry RELEASENOTES.md
+66 silly gunzTarPerm extractEntry VERSION
+67 silly gunzTarPerm extractEntry scripts/cordova.completion
+68 silly gunzTarPerm extractEntry spec/build.spec.js
+69 silly gunzTarPerm extractEntry spec/emulate.spec.js
+70 silly gunzTarPerm extractEntry spec/help.spec.js
+71 silly gunzTarPerm extractEntry spec/helper.js
+72 silly gunzTarPerm extractEntry spec/hooker.spec.js
+73 silly gunzTarPerm extractEntry spec/create.spec.js
+74 silly gunzTarPerm extractEntry spec/util.spec.js
+75 silly gunzTarPerm extractEntry spec/platform.spec.js
+76 silly gunzTarPerm extractEntry spec/plugin.spec.js
+77 silly gunzTarPerm extractEntry spec/plugin_parser.spec.js
+78 silly gunzTarPerm extractEntry spec/prepare.spec.js
+79 silly gunzTarPerm extractEntry spec/config_parser.spec.js
+80 silly gunzTarPerm extractEntry spec/run.spec.js
+81 silly gunzTarPerm extractEntry spec/compile.spec.js
+82 silly gunzTarPerm extractEntry spec/serve.spec.js
+83 silly gunzTarPerm extractEntry spec/cli.spec.js
+84 silly gunzTarPerm extractEntry spec/xml-helpers.spec.js
+85 silly gunzTarPerm extractEntry spec/lazy_load.spec.js
+86 silly gunzTarPerm extractEntry spec/metadata/android_parser.spec.js
+87 silly gunzTarPerm extractEntry spec/metadata/blackberry_parser.spec.js
+88 silly gunzTarPerm extractEntry spec/metadata/ios_parser.spec.js
+89 silly gunzTarPerm extractEntry spec/metadata/windows8_parser.spec.js
+90 silly gunzTarPerm extractEntry spec/metadata/wp7_parser.spec.js
+91 silly gunzTarPerm extractEntry spec/metadata/wp8_parser.spec.js
+92 silly gunzTarPerm extractEntry src/build.js
+93 silly gunzTarPerm extractEntry src/emulate.js
+94 silly gunzTarPerm extractEntry src/events.js
+95 silly gunzTarPerm extractEntry src/help.js
+96 silly gunzTarPerm extractEntry src/hooker.js
+97 silly gunzTarPerm extractEntry src/create.js
+98 silly gunzTarPerm extractEntry src/util.js
+99 silly gunzTarPerm extractEntry src/platform.js
+100 silly gunzTarPerm extractEntry src/plugin.js
+101 silly gunzTarPerm extractEntry src/plugin_parser.js
+102 silly gunzTarPerm extractEntry src/prepare.js
+103 silly gunzTarPerm extractEntry src/config_parser.js
+104 silly gunzTarPerm extractEntry src/ripple.js
+105 silly gunzTarPerm extractEntry src/config.js
+106 silly gunzTarPerm extractEntry src/run.js
+107 silly gunzTarPerm extractEntry src/compile.js
+108 silly gunzTarPerm extractEntry src/serve.js
+109 silly gunzTarPerm extractEntry src/cli.js
+110 silly gunzTarPerm extractEntry src/xml-helpers.js
+111 silly gunzTarPerm extractEntry src/lazy_load.js
+112 silly gunzTarPerm extractEntry src/metadata/android_parser.js
+113 silly gunzTarPerm extractEntry src/metadata/blackberry10_parser.js
+114 silly gunzTarPerm extractEntry src/metadata/firefoxos_parser.js
+115 silly gunzTarPerm extractEntry src/metadata/ios_parser.js
+116 silly gunzTarPerm extractEntry src/metadata/windows8_parser.js
+117 silly gunzTarPerm extractEntry src/metadata/wp7_parser.js
+118 silly gunzTarPerm extractEntry src/metadata/wp8_parser.js
+119 silly gunzTarPerm extractEntry doc/bash.md
+120 silly gunzTarPerm extractEntry doc/help.txt
+121 silly lockFile 9557e84b-r-local-lib-node-modules-cordova tar:///usr/local/lib/node_modules/cordova
+122 silly lockFile 9557e84b-r-local-lib-node-modules-cordova tar:///usr/local/lib/node_modules/cordova
+123 silly lockFile 39891258--cordova-3-1-0-0-1-0-package-tgz tar:///Users/brenothales/.npm/cordova/3.1.0-0.1.0/package.tgz
+124 silly lockFile 39891258--cordova-3-1-0-0-1-0-package-tgz tar:///Users/brenothales/.npm/cordova/3.1.0-0.1.0/package.tgz
+125 info preinstall cordova@3.1.0-0.1.0
+126 verbose readDependencies using package.json deps
+127 verbose readDependencies using package.json deps
+128 verbose cache add [ 'colors@>=0.6.0', null ]
+129 verbose cache add name=undefined spec="colors@>=0.6.0" args=["colors@>=0.6.0",null]
+130 verbose parsed url { protocol: null,
+130 verbose parsed url   slashes: null,
+130 verbose parsed url   auth: null,
+130 verbose parsed url   host: null,
+130 verbose parsed url   port: null,
+130 verbose parsed url   hostname: null,
+130 verbose parsed url   hash: null,
+130 verbose parsed url   search: null,
+130 verbose parsed url   query: null,
+130 verbose parsed url   pathname: 'colors@%3E=0.6.0',
+130 verbose parsed url   path: 'colors@%3E=0.6.0',
+130 verbose parsed url   href: 'colors@%3E=0.6.0' }
+131 verbose cache add name="colors" spec=">=0.6.0" args=["colors",">=0.6.0"]
+132 verbose parsed url { protocol: null,
+132 verbose parsed url   slashes: null,
+132 verbose parsed url   auth: null,
+132 verbose parsed url   host: null,
+132 verbose parsed url   port: null,
+132 verbose parsed url   hostname: null,
+132 verbose parsed url   hash: null,
+132 verbose parsed url   search: null,
+132 verbose parsed url   query: null,
+132 verbose parsed url   pathname: '%3E=0.6.0',
+132 verbose parsed url   path: '%3E=0.6.0',
+132 verbose parsed url   href: '%3E=0.6.0' }
+133 verbose addNamed [ 'colors', '>=0.6.0' ]
+134 verbose addNamed [ null, '>=0.6.0' ]
+135 silly lockFile f531c285-colors-0-6-0 colors@>=0.6.0
+136 verbose lock colors@>=0.6.0 /Users/brenothales/.npm/f531c285-colors-0-6-0.lock
+137 verbose cache add [ 'elementtree@0.1.5', null ]
+138 verbose cache add name=undefined spec="elementtree@0.1.5" args=["elementtree@0.1.5",null]
+139 verbose parsed url { protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: 'elementtree@0.1.5',
+139 verbose parsed url   path: 'elementtree@0.1.5',
+139 verbose parsed url   href: 'elementtree@0.1.5' }
+140 verbose cache add name="elementtree" spec="0.1.5" args=["elementtree","0.1.5"]
+141 verbose parsed url { protocol: null,
+141 verbose parsed url   slashes: null,
+141 verbose parsed url   auth: null,
+141 verbose parsed url   host: null,
+141 verbose parsed url   port: null,
+141 verbose parsed url   hostname: null,
+141 verbose parsed url   hash: null,
+141 verbose parsed url   search: null,
+141 verbose parsed url   query: null,
+141 verbose parsed url   pathname: '0.1.5',
+141 verbose parsed url   path: '0.1.5',
+141 verbose parsed url   href: '0.1.5' }
+142 verbose addNamed [ 'elementtree', '0.1.5' ]
+143 verbose addNamed [ '0.1.5', '0.1.5' ]
+144 silly lockFile 0cafef78-elementtree-0-1-5 elementtree@0.1.5
+145 verbose lock elementtree@0.1.5 /Users/brenothales/.npm/0cafef78-elementtree-0-1-5.lock
+146 verbose cache add [ 'plugman@0.13.x', null ]
+147 verbose cache add name=undefined spec="plugman@0.13.x" args=["plugman@0.13.x",null]
+148 verbose parsed url { protocol: null,
+148 verbose parsed url   slashes: null,
+148 verbose parsed url   auth: null,
+148 verbose parsed url   host: null,
+148 verbose parsed url   port: null,
+148 verbose parsed url   hostname: null,
+148 verbose parsed url   hash: null,
+148 verbose parsed url   search: null,
+148 verbose parsed url   query: null,
+148 verbose parsed url   pathname: 'plugman@0.13.x',
+148 verbose parsed url   path: 'plugman@0.13.x',
+148 verbose parsed url   href: 'plugman@0.13.x' }
+149 verbose cache add name="plugman" spec="0.13.x" args=["plugman","0.13.x"]
+150 verbose parsed url { protocol: null,
+150 verbose parsed url   slashes: null,
+150 verbose parsed url   auth: null,
+150 verbose parsed url   host: null,
+150 verbose parsed url   port: null,
+150 verbose parsed url   hostname: null,
+150 verbose parsed url   hash: null,
+150 verbose parsed url   search: null,
+150 verbose parsed url   query: null,
+150 verbose parsed url   pathname: '0.13.x',
+150 verbose parsed url   path: '0.13.x',
+150 verbose parsed url   href: '0.13.x' }
+151 verbose addNamed [ 'plugman', '0.13.x' ]
+152 verbose addNamed [ null, '>=0.13.0-0 <0.14.0-0' ]
+153 silly lockFile 5bebcb72-plugman-0-13-x plugman@0.13.x
+154 verbose lock plugman@0.13.x /Users/brenothales/.npm/5bebcb72-plugman-0-13-x.lock
+155 verbose cache add [ 'plist@0.4.x', null ]
+156 verbose cache add name=undefined spec="plist@0.4.x" args=["plist@0.4.x",null]
+157 verbose parsed url { protocol: null,
+157 verbose parsed url   slashes: null,
+157 verbose parsed url   auth: null,
+157 verbose parsed url   host: null,
+157 verbose parsed url   port: null,
+157 verbose parsed url   hostname: null,
+157 verbose parsed url   hash: null,
+157 verbose parsed url   search: null,
+157 verbose parsed url   query: null,
+157 verbose parsed url   pathname: 'plist@0.4.x',
+157 verbose parsed url   path: 'plist@0.4.x',
+157 verbose parsed url   href: 'plist@0.4.x' }
+158 verbose cache add name="plist" spec="0.4.x" args=["plist","0.4.x"]
+159 verbose parsed url { protocol: null,
+159 verbose parsed url   slashes: null,
+159 verbose parsed url   auth: null,
+159 verbose parsed url   host: null,
+159 verbose parsed url   port: null,
+159 verbose parsed url   hostname: null,
+159 verbose parsed url   hash: null,
+159 verbose parsed url   search: null,
+159 verbose parsed url   query: null,
+159 verbose parsed url   pathname: '0.4.x',
+159 verbose parsed url   path: '0.4.x',
+159 verbose parsed url   href: '0.4.x' }
+160 verbose addNamed [ 'plist', '0.4.x' ]
+161 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+162 silly lockFile ee0531ac-plist-0-4-x plist@0.4.x
+163 verbose lock plist@0.4.x /Users/brenothales/.npm/ee0531ac-plist-0-4-x.lock
+164 verbose cache add [ 'xcode@0.5.1', null ]
+165 verbose cache add name=undefined spec="xcode@0.5.1" args=["xcode@0.5.1",null]
+166 verbose parsed url { protocol: null,
+166 verbose parsed url   slashes: null,
+166 verbose parsed url   auth: null,
+166 verbose parsed url   host: null,
+166 verbose parsed url   port: null,
+166 verbose parsed url   hostname: null,
+166 verbose parsed url   hash: null,
+166 verbose parsed url   search: null,
+166 verbose parsed url   query: null,
+166 verbose parsed url   pathname: 'xcode@0.5.1',
+166 verbose parsed url   path: 'xcode@0.5.1',
+166 verbose parsed url   href: 'xcode@0.5.1' }
+167 verbose cache add name="xcode" spec="0.5.1" args=["xcode","0.5.1"]
+168 verbose parsed url { protocol: null,
+168 verbose parsed url   slashes: null,
+168 verbose parsed url   auth: null,
+168 verbose parsed url   host: null,
+168 verbose parsed url   port: null,
+168 verbose parsed url   hostname: null,
+168 verbose parsed url   hash: null,
+168 verbose parsed url   search: null,
+168 verbose parsed url   query: null,
+168 verbose parsed url   pathname: '0.5.1',
+168 verbose parsed url   path: '0.5.1',
+168 verbose parsed url   href: '0.5.1' }
+169 verbose addNamed [ 'xcode', '0.5.1' ]
+170 verbose addNamed [ '0.5.1', '0.5.1' ]
+171 silly lockFile bfe68f0b-xcode-0-5-1 xcode@0.5.1
+172 verbose lock xcode@0.5.1 /Users/brenothales/.npm/bfe68f0b-xcode-0-5-1.lock
+173 verbose cache add [ 'express@3.0.0', null ]
+174 verbose cache add name=undefined spec="express@3.0.0" args=["express@3.0.0",null]
+175 verbose parsed url { protocol: null,
+175 verbose parsed url   slashes: null,
+175 verbose parsed url   auth: null,
+175 verbose parsed url   host: null,
+175 verbose parsed url   port: null,
+175 verbose parsed url   hostname: null,
+175 verbose parsed url   hash: null,
+175 verbose parsed url   search: null,
+175 verbose parsed url   query: null,
+175 verbose parsed url   pathname: 'express@3.0.0',
+175 verbose parsed url   path: 'express@3.0.0',
+175 verbose parsed url   href: 'express@3.0.0' }
+176 verbose cache add name="express" spec="3.0.0" args=["express","3.0.0"]
+177 verbose parsed url { protocol: null,
+177 verbose parsed url   slashes: null,
+177 verbose parsed url   auth: null,
+177 verbose parsed url   host: null,
+177 verbose parsed url   port: null,
+177 verbose parsed url   hostname: null,
+177 verbose parsed url   hash: null,
+177 verbose parsed url   search: null,
+177 verbose parsed url   query: null,
+177 verbose parsed url   pathname: '3.0.0',
+177 verbose parsed url   path: '3.0.0',
+177 verbose parsed url   href: '3.0.0' }
+178 verbose addNamed [ 'express', '3.0.0' ]
+179 verbose addNamed [ '3.0.0', '3.0.0' ]
+180 silly lockFile 35596296-express-3-0-0 express@3.0.0
+181 verbose lock express@3.0.0 /Users/brenothales/.npm/35596296-express-3-0-0.lock
+182 verbose cache add [ 'shelljs@0.1.2', null ]
+183 verbose cache add name=undefined spec="shelljs@0.1.2" args=["shelljs@0.1.2",null]
+184 verbose parsed url { protocol: null,
+184 verbose parsed url   slashes: null,
+184 verbose parsed url   auth: null,
+184 verbose parsed url   host: null,
+184 verbose parsed url   port: null,
+184 verbose parsed url   hostname: null,
+184 verbose parsed url   hash: null,
+184 verbose parsed url   search: null,
+184 verbose parsed url   query: null,
+184 verbose parsed url   pathname: 'shelljs@0.1.2',
+184 verbose parsed url   path: 'shelljs@0.1.2',
+184 verbose parsed url   href: 'shelljs@0.1.2' }
+185 verbose cache add name="shelljs" spec="0.1.2" args=["shelljs","0.1.2"]
+186 verbose parsed url { protocol: null,
+186 verbose parsed url   slashes: null,
+186 verbose parsed url   auth: null,
+186 verbose parsed url   host: null,
+186 verbose parsed url   port: null,
+186 verbose parsed url   hostname: null,
+186 verbose parsed url   hash: null,
+186 verbose parsed url   search: null,
+186 verbose parsed url   query: null,
+186 verbose parsed url   pathname: '0.1.2',
+186 verbose parsed url   path: '0.1.2',
+186 verbose parsed url   href: '0.1.2' }
+187 verbose addNamed [ 'shelljs', '0.1.2' ]
+188 verbose addNamed [ '0.1.2', '0.1.2' ]
+189 silly lockFile de1e06d9-shelljs-0-1-2 shelljs@0.1.2
+190 verbose lock shelljs@0.1.2 /Users/brenothales/.npm/de1e06d9-shelljs-0-1-2.lock
+191 verbose cache add [ 'ncallbacks@1.0.0', null ]
+192 verbose cache add name=undefined spec="ncallbacks@1.0.0" args=["ncallbacks@1.0.0",null]
+193 verbose parsed url { protocol: null,
+193 verbose parsed url   slashes: null,
+193 verbose parsed url   auth: null,
+193 verbose parsed url   host: null,
+193 verbose parsed url   port: null,
+193 verbose parsed url   hostname: null,
+193 verbose parsed url   hash: null,
+193 verbose parsed url   search: null,
+193 verbose parsed url   query: null,
+193 verbose parsed url   pathname: 'ncallbacks@1.0.0',
+193 verbose parsed url   path: 'ncallbacks@1.0.0',
+193 verbose parsed url   href: 'ncallbacks@1.0.0' }
+194 verbose cache add name="ncallbacks" spec="1.0.0" args=["ncallbacks","1.0.0"]
+195 verbose parsed url { protocol: null,
+195 verbose parsed url   slashes: null,
+195 verbose parsed url   auth: null,
+195 verbose parsed url   host: null,
+195 verbose parsed url   port: null,
+195 verbose parsed url   hostname: null,
+195 verbose parsed url   hash: null,
+195 verbose parsed url   search: null,
+195 verbose parsed url   query: null,
+195 verbose parsed url   pathname: '1.0.0',
+195 verbose parsed url   path: '1.0.0',
+195 verbose parsed url   href: '1.0.0' }
+196 verbose addNamed [ 'ncallbacks', '1.0.0' ]
+197 verbose addNamed [ '1.0.0', '1.0.0' ]
+198 silly lockFile 01c02423-ncallbacks-1-0-0 ncallbacks@1.0.0
+199 verbose lock ncallbacks@1.0.0 /Users/brenothales/.npm/01c02423-ncallbacks-1-0-0.lock
+200 verbose cache add [ 'request@2.22.0', null ]
+201 verbose cache add name=undefined spec="request@2.22.0" args=["request@2.22.0",null]
+202 verbose parsed url { protocol: null,
+202 verbose parsed url   slashes: null,
+202 verbose parsed url   auth: null,
+202 verbose parsed url   host: null,
+202 verbose parsed url   port: null,
+202 verbose parsed url   hostname: null,
+202 verbose parsed url   hash: null,
+202 verbose parsed url   search: null,
+202 verbose parsed url   query: null,
+202 verbose parsed url   pathname: 'request@2.22.0',
+202 verbose parsed url   path: 'request@2.22.0',
+202 verbose parsed url   href: 'request@2.22.0' }
+203 verbose cache add name="request" spec="2.22.0" args=["request","2.22.0"]
+204 verbose parsed url { protocol: null,
+204 verbose parsed url   slashes: null,
+204 verbose parsed url   auth: null,
+204 verbose parsed url   host: null,
+204 verbose parsed url   port: null,
+204 verbose parsed url   hostname: null,
+204 verbose parsed url   hash: null,
+204 verbose parsed url   search: null,
+204 verbose parsed url   query: null,
+204 verbose parsed url   pathname: '2.22.0',
+204 verbose parsed url   path: '2.22.0',
+204 verbose parsed url   href: '2.22.0' }
+205 verbose addNamed [ 'request', '2.22.0' ]
+206 verbose addNamed [ '2.22.0', '2.22.0' ]
+207 silly lockFile 73e614df-request-2-22-0 request@2.22.0
+208 verbose lock request@2.22.0 /Users/brenothales/.npm/73e614df-request-2-22-0.lock
+209 verbose cache add [ 'ripple-emulator@0.9.18', null ]
+210 verbose cache add name=undefined spec="ripple-emulator@0.9.18" args=["ripple-emulator@0.9.18",null]
+211 verbose parsed url { protocol: null,
+211 verbose parsed url   slashes: null,
+211 verbose parsed url   auth: null,
+211 verbose parsed url   host: null,
+211 verbose parsed url   port: null,
+211 verbose parsed url   hostname: null,
+211 verbose parsed url   hash: null,
+211 verbose parsed url   search: null,
+211 verbose parsed url   query: null,
+211 verbose parsed url   pathname: 'ripple-emulator@0.9.18',
+211 verbose parsed url   path: 'ripple-emulator@0.9.18',
+211 verbose parsed url   href: 'ripple-emulator@0.9.18' }
+212 verbose cache add name="ripple-emulator" spec="0.9.18" args=["ripple-emulator","0.9.18"]
+213 verbose parsed url { protocol: null,
+213 verbose parsed url   slashes: null,
+213 verbose parsed url   auth: null,
+213 verbose parsed url   host: null,
+213 verbose parsed url   port: null,
+213 verbose parsed url   hostname: null,
+213 verbose parsed url   hash: null,
+213 verbose parsed url   search: null,
+213 verbose parsed url   query: null,
+213 verbose parsed url   pathname: '0.9.18',
+213 verbose parsed url   path: '0.9.18',
+213 verbose parsed url   href: '0.9.18' }
+214 verbose addNamed [ 'ripple-emulator', '0.9.18' ]
+215 verbose addNamed [ '0.9.18', '0.9.18' ]
+216 silly lockFile e7de7f23-ripple-emulator-0-9-18 ripple-emulator@0.9.18
+217 verbose lock ripple-emulator@0.9.18 /Users/brenothales/.npm/e7de7f23-ripple-emulator-0-9-18.lock
+218 verbose cache add [ 'semver@1.1.0', null ]
+219 verbose cache add name=undefined spec="semver@1.1.0" args=["semver@1.1.0",null]
+220 verbose parsed url { protocol: null,
+220 verbose parsed url   slashes: null,
+220 verbose parsed url   auth: null,
+220 verbose parsed url   host: null,
+220 verbose parsed url   port: null,
+220 verbose parsed url   hostname: null,
+220 verbose parsed url   hash: null,
+220 verbose parsed url   search: null,
+220 verbose parsed url   query: null,
+220 verbose parsed url   pathname: 'semver@1.1.0',
+220 verbose parsed url   path: 'semver@1.1.0',
+220 verbose parsed url   href: 'semver@1.1.0' }
+221 verbose cache add name="semver" spec="1.1.0" args=["semver","1.1.0"]
+222 verbose parsed url { protocol: null,
+222 verbose parsed url   slashes: null,
+222 verbose parsed url   auth: null,
+222 verbose parsed url   host: null,
+222 verbose parsed url   port: null,
+222 verbose parsed url   hostname: null,
+222 verbose parsed url   hash: null,
+222 verbose parsed url   search: null,
+222 verbose parsed url   query: null,
+222 verbose parsed url   pathname: '1.1.0',
+222 verbose parsed url   path: '1.1.0',
+222 verbose parsed url   href: '1.1.0' }
+223 verbose addNamed [ 'semver', '1.1.0' ]
+224 verbose addNamed [ '1.1.0', '1.1.0' ]
+225 silly lockFile 740aca99-semver-1-1-0 semver@1.1.0
+226 verbose lock semver@1.1.0 /Users/brenothales/.npm/740aca99-semver-1-1-0.lock
+227 verbose cache add [ 'glob@3.2.x', null ]
+228 verbose cache add name=undefined spec="glob@3.2.x" args=["glob@3.2.x",null]
+229 verbose parsed url { protocol: null,
+229 verbose parsed url   slashes: null,
+229 verbose parsed url   auth: null,
+229 verbose parsed url   host: null,
+229 verbose parsed url   port: null,
+229 verbose parsed url   hostname: null,
+229 verbose parsed url   hash: null,
+229 verbose parsed url   search: null,
+229 verbose parsed url   query: null,
+229 verbose parsed url   pathname: 'glob@3.2.x',
+229 verbose parsed url   path: 'glob@3.2.x',
+229 verbose parsed url   href: 'glob@3.2.x' }
+230 verbose cache add name="glob" spec="3.2.x" args=["glob","3.2.x"]
+231 verbose parsed url { protocol: null,
+231 verbose parsed url   slashes: null,
+231 verbose parsed url   auth: null,
+231 verbose parsed url   host: null,
+231 verbose parsed url   port: null,
+231 verbose parsed url   hostname: null,
+231 verbose parsed url   hash: null,
+231 verbose parsed url   search: null,
+231 verbose parsed url   query: null,
+231 verbose parsed url   pathname: '3.2.x',
+231 verbose parsed url   path: '3.2.x',
+231 verbose parsed url   href: '3.2.x' }
+232 verbose addNamed [ 'glob', '3.2.x' ]
+233 verbose addNamed [ null, '>=3.2.0-0 <3.3.0-0' ]
+234 silly lockFile 2780ad54-glob-3-2-x glob@3.2.x
+235 verbose lock glob@3.2.x /Users/brenothales/.npm/2780ad54-glob-3-2-x.lock
+236 silly addNameRange { name: 'colors', range: '>=0.6.0', hasData: false }
+237 verbose cache add [ 'follow-redirects@0.0.x', null ]
+238 verbose cache add name=undefined spec="follow-redirects@0.0.x" args=["follow-redirects@0.0.x",null]
+239 verbose parsed url { protocol: null,
+239 verbose parsed url   slashes: null,
+239 verbose parsed url   auth: null,
+239 verbose parsed url   host: null,
+239 verbose parsed url   port: null,
+239 verbose parsed url   hostname: null,
+239 verbose parsed url   hash: null,
+239 verbose parsed url   search: null,
+239 verbose parsed url   query: null,
+239 verbose parsed url   pathname: 'follow-redirects@0.0.x',
+239 verbose parsed url   path: 'follow-redirects@0.0.x',
+239 verbose parsed url   href: 'follow-redirects@0.0.x' }
+240 verbose cache add name="follow-redirects" spec="0.0.x" args=["follow-redirects","0.0.x"]
+241 verbose parsed url { protocol: null,
+241 verbose parsed url   slashes: null,
+241 verbose parsed url   auth: null,
+241 verbose parsed url   host: null,
+241 verbose parsed url   port: null,
+241 verbose parsed url   hostname: null,
+241 verbose parsed url   hash: null,
+241 verbose parsed url   search: null,
+241 verbose parsed url   query: null,
+241 verbose parsed url   pathname: '0.0.x',
+241 verbose parsed url   path: '0.0.x',
+241 verbose parsed url   href: '0.0.x' }
+242 verbose addNamed [ 'follow-redirects', '0.0.x' ]
+243 verbose addNamed [ null, '>=0.0.0-0 <0.1.0-0' ]
+244 silly lockFile 7a121702-follow-redirects-0-0-x follow-redirects@0.0.x
+245 verbose lock follow-redirects@0.0.x /Users/brenothales/.npm/7a121702-follow-redirects-0-0-x.lock
+246 verbose cache add [ 'prompt@0.2.7', null ]
+247 verbose cache add name=undefined spec="prompt@0.2.7" args=["prompt@0.2.7",null]
+248 verbose parsed url { protocol: null,
+248 verbose parsed url   slashes: null,
+248 verbose parsed url   auth: null,
+248 verbose parsed url   host: null,
+248 verbose parsed url   port: null,
+248 verbose parsed url   hostname: null,
+248 verbose parsed url   hash: null,
+248 verbose parsed url   search: null,
+248 verbose parsed url   query: null,
+248 verbose parsed url   pathname: 'prompt@0.2.7',
+248 verbose parsed url   path: 'prompt@0.2.7',
+248 verbose parsed url   href: 'prompt@0.2.7' }
+249 verbose cache add name="prompt" spec="0.2.7" args=["prompt","0.2.7"]
+250 verbose parsed url { protocol: null,
+250 verbose parsed url   slashes: null,
+250 verbose parsed url   auth: null,
+250 verbose parsed url   host: null,
+250 verbose parsed url   port: null,
+250 verbose parsed url   hostname: null,
+250 verbose parsed url   hash: null,
+250 verbose parsed url   search: null,
+250 verbose parsed url   query: null,
+250 verbose parsed url   pathname: '0.2.7',
+250 verbose parsed url   path: '0.2.7',
+250 verbose parsed url   href: '0.2.7' }
+251 verbose addNamed [ 'prompt', '0.2.7' ]
+252 verbose addNamed [ '0.2.7', '0.2.7' ]
+253 silly lockFile 08c5d9a9-prompt-0-2-7 prompt@0.2.7
+254 verbose lock prompt@0.2.7 /Users/brenothales/.npm/08c5d9a9-prompt-0-2-7.lock
+255 verbose cache add [ 'tar@0.1.x', null ]
+256 verbose cache add name=undefined spec="tar@0.1.x" args=["tar@0.1.x",null]
+257 verbose parsed url { protocol: null,
+257 verbose parsed url   slashes: null,
+257 verbose parsed url   auth: null,
+257 verbose parsed url   host: null,
+257 verbose parsed url   port: null,
+257 verbose parsed url   hostname: null,
+257 verbose parsed url   hash: null,
+257 verbose parsed url   search: null,
+257 verbose parsed url   query: null,
+257 verbose parsed url   pathname: 'tar@0.1.x',
+257 verbose parsed url   path: 'tar@0.1.x',
+257 verbose parsed url   href: 'tar@0.1.x' }
+258 verbose cache add name="tar" spec="0.1.x" args=["tar","0.1.x"]
+259 verbose parsed url { protocol: null,
+259 verbose parsed url   slashes: null,
+259 verbose parsed url   auth: null,
+259 verbose parsed url   host: null,
+259 verbose parsed url   port: null,
+259 verbose parsed url   hostname: null,
+259 verbose parsed url   hash: null,
+259 verbose parsed url   search: null,
+259 verbose parsed url   query: null,
+259 verbose parsed url   pathname: '0.1.x',
+259 verbose parsed url   path: '0.1.x',
+259 verbose parsed url   href: '0.1.x' }
+260 verbose addNamed [ 'tar', '0.1.x' ]
+261 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+262 silly lockFile 0a1eb69c-tar-0-1-x tar@0.1.x
+263 verbose lock tar@0.1.x /Users/brenothales/.npm/0a1eb69c-tar-0-1-x.lock
+264 verbose cache add [ 'open@0.0.3', null ]
+265 verbose cache add name=undefined spec="open@0.0.3" args=["open@0.0.3",null]
+266 verbose parsed url { protocol: null,
+266 verbose parsed url   slashes: null,
+266 verbose parsed url   auth: null,
+266 verbose parsed url   host: null,
+266 verbose parsed url   port: null,
+266 verbose parsed url   hostname: null,
+266 verbose parsed url   hash: null,
+266 verbose parsed url   search: null,
+266 verbose parsed url   query: null,
+266 verbose parsed url   pathname: 'open@0.0.3',
+266 verbose parsed url   path: 'open@0.0.3',
+266 verbose parsed url   href: 'open@0.0.3' }
+267 verbose cache add name="open" spec="0.0.3" args=["open","0.0.3"]
+268 verbose parsed url { protocol: null,
+268 verbose parsed url   slashes: null,
+268 verbose parsed url   auth: null,
+268 verbose parsed url   host: null,
+268 verbose parsed url   port: null,
+268 verbose parsed url   hostname: null,
+268 verbose parsed url   hash: null,
+268 verbose parsed url   search: null,
+268 verbose parsed url   query: null,
+268 verbose parsed url   pathname: '0.0.3',
+268 verbose parsed url   path: '0.0.3',
+268 verbose parsed url   href: '0.0.3' }
+269 verbose addNamed [ 'open', '0.0.3' ]
+270 verbose addNamed [ '0.0.3', '0.0.3' ]
+271 silly lockFile 51d27578-open-0-0-3 open@0.0.3
+272 verbose lock open@0.0.3 /Users/brenothales/.npm/51d27578-open-0-0-3.lock
+273 verbose cache add [ 'npm@1.3.x', null ]
+274 verbose cache add name=undefined spec="npm@1.3.x" args=["npm@1.3.x",null]
+275 verbose parsed url { protocol: null,
+275 verbose parsed url   slashes: null,
+275 verbose parsed url   auth: null,
+275 verbose parsed url   host: null,
+275 verbose parsed url   port: null,
+275 verbose parsed url   hostname: null,
+275 verbose parsed url   hash: null,
+275 verbose parsed url   search: null,
+275 verbose parsed url   query: null,
+275 verbose parsed url   pathname: 'npm@1.3.x',
+275 verbose parsed url   path: 'npm@1.3.x',
+275 verbose parsed url   href: 'npm@1.3.x' }
+276 verbose cache add name="npm" spec="1.3.x" args=["npm","1.3.x"]
+277 verbose parsed url { protocol: null,
+277 verbose parsed url   slashes: null,
+277 verbose parsed url   auth: null,
+277 verbose parsed url   host: null,
+277 verbose parsed url   port: null,
+277 verbose parsed url   hostname: null,
+277 verbose parsed url   hash: null,
+277 verbose parsed url   search: null,
+277 verbose parsed url   query: null,
+277 verbose parsed url   pathname: '1.3.x',
+277 verbose parsed url   path: '1.3.x',
+277 verbose parsed url   href: '1.3.x' }
+278 verbose addNamed [ 'npm', '1.3.x' ]
+279 verbose addNamed [ null, '>=1.3.0-0 <1.4.0-0' ]
+280 silly lockFile 8b2e1d24-npm-1-3-x npm@1.3.x
+281 verbose lock npm@1.3.x /Users/brenothales/.npm/8b2e1d24-npm-1-3-x.lock
+282 verbose cache add [ 'optimist@0.6.0', null ]
+283 verbose cache add name=undefined spec="optimist@0.6.0" args=["optimist@0.6.0",null]
+284 verbose parsed url { protocol: null,
+284 verbose parsed url   slashes: null,
+284 verbose parsed url   auth: null,
+284 verbose parsed url   host: null,
+284 verbose parsed url   port: null,
+284 verbose parsed url   hostname: null,
+284 verbose parsed url   hash: null,
+284 verbose parsed url   search: null,
+284 verbose parsed url   query: null,
+284 verbose parsed url   pathname: 'optimist@0.6.0',
+284 verbose parsed url   path: 'optimist@0.6.0',
+284 verbose parsed url   href: 'optimist@0.6.0' }
+285 verbose cache add name="optimist" spec="0.6.0" args=["optimist","0.6.0"]
+286 verbose parsed url { protocol: null,
+286 verbose parsed url   slashes: null,
+286 verbose parsed url   auth: null,
+286 verbose parsed url   host: null,
+286 verbose parsed url   port: null,
+286 verbose parsed url   hostname: null,
+286 verbose parsed url   hash: null,
+286 verbose parsed url   search: null,
+286 verbose parsed url   query: null,
+286 verbose parsed url   pathname: '0.6.0',
+286 verbose parsed url   path: '0.6.0',
+286 verbose parsed url   href: '0.6.0' }
+287 verbose addNamed [ 'optimist', '0.6.0' ]
+288 verbose addNamed [ '0.6.0', '0.6.0' ]
+289 silly lockFile 6403b4d6-optimist-0-6-0 optimist@0.6.0
+290 verbose lock optimist@0.6.0 /Users/brenothales/.npm/6403b4d6-optimist-0-6-0.lock
+291 verbose cache add [ 'mime@~1.2.11', null ]
+292 verbose cache add name=undefined spec="mime@~1.2.11" args=["mime@~1.2.11",null]
+293 verbose parsed url { protocol: null,
+293 verbose parsed url   slashes: null,
+293 verbose parsed url   auth: null,
+293 verbose parsed url   host: null,
+293 verbose parsed url   port: null,
+293 verbose parsed url   hostname: null,
+293 verbose parsed url   hash: null,
+293 verbose parsed url   search: null,
+293 verbose parsed url   query: null,
+293 verbose parsed url   pathname: 'mime@~1.2.11',
+293 verbose parsed url   path: 'mime@~1.2.11',
+293 verbose parsed url   href: 'mime@~1.2.11' }
+294 verbose cache add name="mime" spec="~1.2.11" args=["mime","~1.2.11"]
+295 verbose parsed url { protocol: null,
+295 verbose parsed url   slashes: null,
+295 verbose parsed url   auth: null,
+295 verbose parsed url   host: null,
+295 verbose parsed url   port: null,
+295 verbose parsed url   hostname: null,
+295 verbose parsed url   hash: null,
+295 verbose parsed url   search: null,
+295 verbose parsed url   query: null,
+295 verbose parsed url   pathname: '~1.2.11',
+295 verbose parsed url   path: '~1.2.11',
+295 verbose parsed url   href: '~1.2.11' }
+296 verbose addNamed [ 'mime', '~1.2.11' ]
+297 verbose addNamed [ null, '>=1.2.11-0 <1.3.0-0' ]
+298 silly lockFile be28297f-mime-1-2-11 mime@~1.2.11
+299 verbose lock mime@~1.2.11 /Users/brenothales/.npm/be28297f-mime-1-2-11.lock
+300 silly addNameRange { name: 'plist', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+301 silly addNameRange { name: 'plugman',
+301 silly addNameRange   range: '>=0.13.0-0 <0.14.0-0',
+301 silly addNameRange   hasData: false }
+302 silly addNameRange { name: 'follow-redirects',
+302 silly addNameRange   range: '>=0.0.0-0 <0.1.0-0',
+302 silly addNameRange   hasData: false }
+303 silly addNameRange { name: 'glob', range: '>=3.2.0-0 <3.3.0-0', hasData: false }
+304 silly addNameRange { name: 'tar', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+305 silly addNameRange { name: 'npm', range: '>=1.3.0-0 <1.4.0-0', hasData: false }
+306 silly addNameRange { name: 'mime', range: '>=1.2.11-0 <1.3.0-0', hasData: false }
+307 verbose url raw colors
+308 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+309 verbose url resolved https://registry.npmjs.org/colors
+310 info trying registry request attempt 1 at 17:02:48
+311 verbose etag "NPGPD6BDS4BD3ATI6C4O6YD"
+312 http GET https://registry.npmjs.org/colors
+313 verbose url raw elementtree/0.1.5
+314 verbose url resolving [ 'https://registry.npmjs.org/', './elementtree/0.1.5' ]
+315 verbose url resolved https://registry.npmjs.org/elementtree/0.1.5
+316 info trying registry request attempt 1 at 17:02:48
+317 verbose etag "7656T9QM4WMKPDV6M9DV49RSU"
+318 http GET https://registry.npmjs.org/elementtree/0.1.5
+319 verbose url raw plist
+320 verbose url resolving [ 'https://registry.npmjs.org/', './plist' ]
+321 verbose url resolved https://registry.npmjs.org/plist
+322 info trying registry request attempt 1 at 17:02:48
+323 verbose etag "5A7F7WC3B9IDRR0N8UR55RW9J"
+324 http GET https://registry.npmjs.org/plist
+325 verbose url raw ripple-emulator/0.9.18
+326 verbose url resolving [ 'https://registry.npmjs.org/', './ripple-emulator/0.9.18' ]
+327 verbose url resolved https://registry.npmjs.org/ripple-emulator/0.9.18
+328 info trying registry request attempt 1 at 17:02:48
+329 verbose etag "B0MR1GQ9YKXEGE8IKW0RLI6UQ"
+330 http GET https://registry.npmjs.org/ripple-emulator/0.9.18
+331 verbose url raw ncallbacks/1.0.0
+332 verbose url resolving [ 'https://registry.npmjs.org/', './ncallbacks/1.0.0' ]
+333 verbose url resolved https://registry.npmjs.org/ncallbacks/1.0.0
+334 info trying registry request attempt 1 at 17:02:48
+335 verbose etag "21X4KM55MWOKQUW75GKUHCWVS"
+336 http GET https://registry.npmjs.org/ncallbacks/1.0.0
+337 verbose url raw express/3.0.0
+338 verbose url resolving [ 'https://registry.npmjs.org/', './express/3.0.0' ]
+339 verbose url resolved https://registry.npmjs.org/express/3.0.0
+340 info trying registry request attempt 1 at 17:02:48
+341 verbose etag "6CGAPLRNIFJ2VVZJMZP80P2P7"
+342 http GET https://registry.npmjs.org/express/3.0.0
+343 verbose url raw follow-redirects
+344 verbose url resolving [ 'https://registry.npmjs.org/', './follow-redirects' ]
+345 verbose url resolved https://registry.npmjs.org/follow-redirects
+346 info trying registry request attempt 1 at 17:02:48
+347 verbose etag "9EY0BT1S872TFV8L4B40O20N8"
+348 http GET https://registry.npmjs.org/follow-redirects
+349 verbose url raw shelljs/0.1.2
+350 verbose url resolving [ 'https://registry.npmjs.org/', './shelljs/0.1.2' ]
+351 verbose url resolved https://registry.npmjs.org/shelljs/0.1.2
+352 info trying registry request attempt 1 at 17:02:48
+353 verbose etag "ERIK2MR0RW2LVBLY2DLH5LME4"
+354 http GET https://registry.npmjs.org/shelljs/0.1.2
+355 verbose url raw glob
+356 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+357 verbose url resolved https://registry.npmjs.org/glob
+358 info trying registry request attempt 1 at 17:02:48
+359 verbose etag "3AYM52TXD6H9J4HNEQ1H5KGKB"
+360 http GET https://registry.npmjs.org/glob
+361 verbose url raw semver/1.1.0
+362 verbose url resolving [ 'https://registry.npmjs.org/', './semver/1.1.0' ]
+363 verbose url resolved https://registry.npmjs.org/semver/1.1.0
+364 info trying registry request attempt 1 at 17:02:48
+365 verbose etag "73MJML2GGFR2KWW8VUEMK8P9I"
+366 http GET https://registry.npmjs.org/semver/1.1.0
+367 verbose url raw plugman
+368 verbose url resolving [ 'https://registry.npmjs.org/', './plugman' ]
+369 verbose url resolved https://registry.npmjs.org/plugman
+370 info trying registry request attempt 1 at 17:02:48
+371 verbose etag "DYMES0HPX2QDQKXNEJ9NDIGJM"
+372 http GET https://registry.npmjs.org/plugman
+373 verbose url raw open/0.0.3
+374 verbose url resolving [ 'https://registry.npmjs.org/', './open/0.0.3' ]
+375 verbose url resolved https://registry.npmjs.org/open/0.0.3
+376 info trying registry request attempt 1 at 17:02:48
+377 verbose etag "C17F4Z86X389UGJ6Z9ZWH8HPI"
+378 http GET https://registry.npmjs.org/open/0.0.3
+379 verbose url raw tar
+380 verbose url resolving [ 'https://registry.npmjs.org/', './tar' ]
+381 verbose url resolved https://registry.npmjs.org/tar
+382 info trying registry request attempt 1 at 17:02:48
+383 verbose etag "EG92QEBUWFW1EXCJSVQUVTTQU"
+384 http GET https://registry.npmjs.org/tar
+385 verbose url raw prompt/0.2.7
+386 verbose url resolving [ 'https://registry.npmjs.org/', './prompt/0.2.7' ]
+387 verbose url resolved https://registry.npmjs.org/prompt/0.2.7
+388 info trying registry request attempt 1 at 17:02:48
+389 verbose etag "ADBQ9VDGRUBECNQTPVOIWX6NE"
+390 http GET https://registry.npmjs.org/prompt/0.2.7
+391 verbose url raw request/2.22.0
+392 verbose url resolving [ 'https://registry.npmjs.org/', './request/2.22.0' ]
+393 verbose url resolved https://registry.npmjs.org/request/2.22.0
+394 info trying registry request attempt 1 at 17:02:48
+395 verbose etag "6BG47WRZT60CEK65TSSMAUDZS"
+396 http GET https://registry.npmjs.org/request/2.22.0
+397 verbose url raw xcode/0.5.1
+398 verbose url resolving [ 'https://registry.npmjs.org/', './xcode/0.5.1' ]
+399 verbose url resolved https://registry.npmjs.org/xcode/0.5.1
+400 info trying registry request attempt 1 at 17:02:48
+401 verbose etag "ALMXTL0RD1ICPW5QZ0LBQ69W0"
+402 http GET https://registry.npmjs.org/xcode/0.5.1
+403 verbose url raw optimist/0.6.0
+404 verbose url resolving [ 'https://registry.npmjs.org/', './optimist/0.6.0' ]
+405 verbose url resolved https://registry.npmjs.org/optimist/0.6.0
+406 info trying registry request attempt 1 at 17:02:49
+407 verbose etag "2N99ZKLR7I8BU9SAHQGJKDC8P"
+408 http GET https://registry.npmjs.org/optimist/0.6.0
+409 verbose url raw mime
+410 verbose url resolving [ 'https://registry.npmjs.org/', './mime' ]
+411 verbose url resolved https://registry.npmjs.org/mime
+412 info trying registry request attempt 1 at 17:02:49
+413 verbose etag "7KP5G5M5P0YBO5Z23IHZKCV44"
+414 http GET https://registry.npmjs.org/mime
+415 verbose url raw npm
+416 verbose url resolving [ 'https://registry.npmjs.org/', './npm' ]
+417 verbose url resolved https://registry.npmjs.org/npm
+418 info trying registry request attempt 1 at 17:02:49
+419 verbose etag "8QK04QMD1O0FBJX68WSEAS2E6"
+420 http GET https://registry.npmjs.org/npm
+421 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+422 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+423 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+424 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+425 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+426 info trying registry request attempt 2 at 17:04:14
+427 verbose etag "21X4KM55MWOKQUW75GKUHCWVS"
+428 http GET https://registry.npmjs.org/ncallbacks/1.0.0
+429 info trying registry request attempt 2 at 17:04:14
+430 verbose etag "NPGPD6BDS4BD3ATI6C4O6YD"
+431 http GET https://registry.npmjs.org/colors
+432 info trying registry request attempt 2 at 17:04:14
+433 verbose etag "7656T9QM4WMKPDV6M9DV49RSU"
+434 http GET https://registry.npmjs.org/elementtree/0.1.5
+435 info trying registry request attempt 2 at 17:04:14
+436 verbose etag "5A7F7WC3B9IDRR0N8UR55RW9J"
+437 http GET https://registry.npmjs.org/plist
+438 info trying registry request attempt 2 at 17:04:14
+439 verbose etag "B0MR1GQ9YKXEGE8IKW0RLI6UQ"
+440 http GET https://registry.npmjs.org/ripple-emulator/0.9.18
+441 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+442 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+443 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+444 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+445 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+446 info trying registry request attempt 2 at 17:05:29
+447 verbose etag "73MJML2GGFR2KWW8VUEMK8P9I"
+448 http GET https://registry.npmjs.org/semver/1.1.0
+449 info trying registry request attempt 2 at 17:05:29
+450 verbose etag "3AYM52TXD6H9J4HNEQ1H5KGKB"
+451 http GET https://registry.npmjs.org/glob
+452 info trying registry request attempt 2 at 17:05:29
+453 verbose etag "ERIK2MR0RW2LVBLY2DLH5LME4"
+454 http GET https://registry.npmjs.org/shelljs/0.1.2
+455 info trying registry request attempt 2 at 17:05:29
+456 verbose etag "9EY0BT1S872TFV8L4B40O20N8"
+457 http GET https://registry.npmjs.org/follow-redirects
+458 info trying registry request attempt 2 at 17:05:29
+459 verbose etag "6CGAPLRNIFJ2VVZJMZP80P2P7"
+460 http GET https://registry.npmjs.org/express/3.0.0
+461 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+462 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+463 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+464 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+465 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+466 info trying registry request attempt 2 at 17:06:45
+467 verbose etag "6BG47WRZT60CEK65TSSMAUDZS"
+468 http GET https://registry.npmjs.org/request/2.22.0
+469 info trying registry request attempt 2 at 17:06:45
+470 verbose etag "ADBQ9VDGRUBECNQTPVOIWX6NE"
+471 http GET https://registry.npmjs.org/prompt/0.2.7
+472 info trying registry request attempt 2 at 17:06:45
+473 verbose etag "EG92QEBUWFW1EXCJSVQUVTTQU"
+474 http GET https://registry.npmjs.org/tar
+475 info trying registry request attempt 2 at 17:06:45
+476 verbose etag "C17F4Z86X389UGJ6Z9ZWH8HPI"
+477 http GET https://registry.npmjs.org/open/0.0.3
+478 info trying registry request attempt 2 at 17:06:45
+479 verbose etag "DYMES0HPX2QDQKXNEJ9NDIGJM"
+480 http GET https://registry.npmjs.org/plugman
+481 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+482 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+483 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+484 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+485 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+486 info trying registry request attempt 2 at 17:08:00
+487 verbose etag "8QK04QMD1O0FBJX68WSEAS2E6"
+488 http GET https://registry.npmjs.org/npm
+489 info trying registry request attempt 2 at 17:08:00
+490 verbose etag "7KP5G5M5P0YBO5Z23IHZKCV44"
+491 http GET https://registry.npmjs.org/mime
+492 info trying registry request attempt 2 at 17:08:00
+493 verbose etag "2N99ZKLR7I8BU9SAHQGJKDC8P"
+494 http GET https://registry.npmjs.org/optimist/0.6.0
+495 info trying registry request attempt 2 at 17:08:00
+496 verbose etag "ALMXTL0RD1ICPW5QZ0LBQ69W0"
+497 http GET https://registry.npmjs.org/xcode/0.5.1
+498 info trying registry request attempt 3 at 17:08:50
+499 verbose etag "21X4KM55MWOKQUW75GKUHCWVS"
+500 http GET https://registry.npmjs.org/ncallbacks/1.0.0
+501 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+502 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+503 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+504 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+505 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+506 info trying registry request attempt 3 at 17:10:06
+507 verbose etag "73MJML2GGFR2KWW8VUEMK8P9I"
+508 http GET https://registry.npmjs.org/semver/1.1.0
+509 info trying registry request attempt 3 at 17:10:06
+510 verbose etag "NPGPD6BDS4BD3ATI6C4O6YD"
+511 http GET https://registry.npmjs.org/colors
+512 info trying registry request attempt 3 at 17:10:06
+513 verbose etag "5A7F7WC3B9IDRR0N8UR55RW9J"
+514 http GET https://registry.npmjs.org/plist
+515 info trying registry request attempt 3 at 17:10:06
+516 verbose etag "7656T9QM4WMKPDV6M9DV49RSU"
+517 http GET https://registry.npmjs.org/elementtree/0.1.5
+518 info trying registry request attempt 3 at 17:10:06
+519 verbose etag "B0MR1GQ9YKXEGE8IKW0RLI6UQ"
+520 http GET https://registry.npmjs.org/ripple-emulator/0.9.18
+521 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+522 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+523 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+524 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+525 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+526 info trying registry request attempt 3 at 17:11:22
+527 verbose etag "6BG47WRZT60CEK65TSSMAUDZS"
+528 http GET https://registry.npmjs.org/request/2.22.0
+529 info trying registry request attempt 3 at 17:11:22
+530 verbose etag "6CGAPLRNIFJ2VVZJMZP80P2P7"
+531 http GET https://registry.npmjs.org/express/3.0.0
+532 info trying registry request attempt 3 at 17:11:22
+533 verbose etag "9EY0BT1S872TFV8L4B40O20N8"
+534 http GET https://registry.npmjs.org/follow-redirects
+535 info trying registry request attempt 3 at 17:11:22
+536 verbose etag "ERIK2MR0RW2LVBLY2DLH5LME4"
+537 http GET https://registry.npmjs.org/shelljs/0.1.2
+538 info trying registry request attempt 3 at 17:11:22
+539 verbose etag "3AYM52TXD6H9J4HNEQ1H5KGKB"
+540 http GET https://registry.npmjs.org/glob
+541 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+542 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+543 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+544 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+545 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+546 info trying registry request attempt 3 at 17:12:38
+547 verbose etag "8QK04QMD1O0FBJX68WSEAS2E6"
+548 http GET https://registry.npmjs.org/npm
+549 info trying registry request attempt 3 at 17:12:38
+550 verbose etag "DYMES0HPX2QDQKXNEJ9NDIGJM"
+551 http GET https://registry.npmjs.org/plugman
+552 info trying registry request attempt 3 at 17:12:38
+553 verbose etag "C17F4Z86X389UGJ6Z9ZWH8HPI"
+554 http GET https://registry.npmjs.org/open/0.0.3
+555 info trying registry request attempt 3 at 17:12:38
+556 verbose etag "EG92QEBUWFW1EXCJSVQUVTTQU"
+557 http GET https://registry.npmjs.org/tar
+558 info trying registry request attempt 3 at 17:12:38
+559 verbose etag "ADBQ9VDGRUBECNQTPVOIWX6NE"
+560 http GET https://registry.npmjs.org/prompt/0.2.7
+561 silly registry.get cb [ 304, undefined ]
+562 verbose etag semver/1.1.0 from cache
+563 silly registry.get cb [ 304, undefined ]
+564 verbose etag ncallbacks/1.0.0 from cache
+565 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+566 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+567 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+568 silly lockFile 4fbf0753-pmjs-org-semver-semver-1-1-0-tgz https://registry.npmjs.org/semver/-/semver-1.1.0.tgz
+569 verbose lock https://registry.npmjs.org/semver/-/semver-1.1.0.tgz /Users/brenothales/.npm/4fbf0753-pmjs-org-semver-semver-1-1-0-tgz.lock
+570 silly lockFile c99c86b3--ncallbacks-ncallbacks-1-0-0-tgz https://registry.npmjs.org/ncallbacks/-/ncallbacks-1.0.0.tgz
+571 verbose lock https://registry.npmjs.org/ncallbacks/-/ncallbacks-1.0.0.tgz /Users/brenothales/.npm/c99c86b3--ncallbacks-ncallbacks-1-0-0-tgz.lock
+572 verbose addRemoteTarball [ 'https://registry.npmjs.org/semver/-/semver-1.1.0.tgz',
+572 verbose addRemoteTarball   'da9b9c837e31550a7c928622bc2381de7dd7a53e' ]
+573 verbose addRemoteTarball [ 'https://registry.npmjs.org/ncallbacks/-/ncallbacks-1.0.0.tgz',
+573 verbose addRemoteTarball   'b0166553a7d777d223d7d3c6c8ce8b9e8494df86' ]
+574 info retry fetch attempt 1 at 17:12:55
+575 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550375476-0.7946151746436954/tmp.tgz
+576 info retry fetch attempt 1 at 17:12:55
+577 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550375476-0.6986114238388836/tmp.tgz
+578 http GET https://registry.npmjs.org/semver/-/semver-1.1.0.tgz
+579 http GET https://registry.npmjs.org/ncallbacks/-/ncallbacks-1.0.0.tgz
+580 info trying registry request attempt 3 at 17:13:55
+581 verbose etag "ALMXTL0RD1ICPW5QZ0LBQ69W0"
+582 http GET https://registry.npmjs.org/xcode/0.5.1
+583 info trying registry request attempt 3 at 17:13:55
+584 verbose etag "2N99ZKLR7I8BU9SAHQGJKDC8P"
+585 http GET https://registry.npmjs.org/optimist/0.6.0
+586 info trying registry request attempt 3 at 17:13:55
+587 verbose etag "7KP5G5M5P0YBO5Z23IHZKCV44"
+588 http GET https://registry.npmjs.org/mime
+589 error fetch failed https://registry.npmjs.org/ncallbacks/-/ncallbacks-1.0.0.tgz
+590 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+591 error fetch failed https://registry.npmjs.org/semver/-/semver-1.1.0.tgz
+592 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+593 silly registry.get cb [ 304, undefined ]
+594 verbose etag request/2.22.0 from cache
+595 silly registry.get cb [ 304, undefined ]
+596 verbose etag colors from cache
+597 silly registry.get cb [ 304, undefined ]
+598 verbose etag plist from cache
+599 silly registry.get cb [ 304, undefined ]
+600 verbose etag ripple-emulator/0.9.18 from cache
+601 silly registry.get cb [ 304, undefined ]
+602 verbose etag elementtree/0.1.5 from cache
+603 silly addNameRange number 2 { name: 'colors', range: '>=0.6.0', hasData: true }
+604 silly addNameRange versions [ 'colors',
+604 silly addNameRange   [ '0.3.0', '0.5.0', '0.5.1', '0.6.0', '0.6.0-1', '0.6.1', '0.6.2' ] ]
+605 verbose addNamed [ 'colors', '0.6.2' ]
+606 verbose addNamed [ '0.6.2', '0.6.2' ]
+607 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+608 verbose lock colors@0.6.2 /Users/brenothales/.npm/1ce149d5-colors-0-6-2.lock
+609 silly addNameRange number 2 { name: 'plist', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+610 silly addNameRange versions [ 'plist',
+610 silly addNameRange   [ '0.1.0',
+610 silly addNameRange     '0.1.1',
+610 silly addNameRange     '0.2.0',
+610 silly addNameRange     '0.2.1',
+610 silly addNameRange     '0.3.1',
+610 silly addNameRange     '0.3.2',
+610 silly addNameRange     '0.3.3',
+610 silly addNameRange     '0.4.0',
+610 silly addNameRange     '0.4.1',
+610 silly addNameRange     '0.4.2',
+610 silly addNameRange     '0.4.3' ] ]
+611 verbose addNamed [ 'plist', '0.4.3' ]
+612 verbose addNamed [ '0.4.3', '0.4.3' ]
+613 silly lockFile 7c21c0eb-plist-0-4-3 plist@0.4.3
+614 verbose lock plist@0.4.3 /Users/brenothales/.npm/7c21c0eb-plist-0-4-3.lock
+615 silly lockFile 11bcd40c-s-org-request-request-2-22-0-tgz https://registry.npmjs.org/request/-/request-2.22.0.tgz
+616 verbose lock https://registry.npmjs.org/request/-/request-2.22.0.tgz /Users/brenothales/.npm/11bcd40c-s-org-request-request-2-22-0-tgz.lock
+617 silly lockFile c8e2010f-lator-ripple-emulator-0-9-18-tgz https://registry.npmjs.org/ripple-emulator/-/ripple-emulator-0.9.18.tgz
+618 verbose lock https://registry.npmjs.org/ripple-emulator/-/ripple-emulator-0.9.18.tgz /Users/brenothales/.npm/c8e2010f-lator-ripple-emulator-0-9-18-tgz.lock
+619 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.22.0.tgz',
+619 verbose addRemoteTarball   'b883a769cc4a909571eb5004b344c43cf7e51592' ]
+620 verbose addRemoteTarball [ 'https://registry.npmjs.org/ripple-emulator/-/ripple-emulator-0.9.18.tgz',
+620 verbose addRemoteTarball   '022df983c7dd613aee3c761126d92608b9d59efd' ]
+621 silly lockFile 8b630e23-lementtree-elementtree-0-1-5-tgz https://registry.npmjs.org/elementtree/-/elementtree-0.1.5.tgz
+622 verbose lock https://registry.npmjs.org/elementtree/-/elementtree-0.1.5.tgz /Users/brenothales/.npm/8b630e23-lementtree-elementtree-0-1-5-tgz.lock
+623 info retry fetch attempt 1 at 17:14:11
+624 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550451336-0.044319584500044584/tmp.tgz
+625 info retry fetch attempt 1 at 17:14:11
+626 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550451337-0.20223601255565882/tmp.tgz
+627 verbose addRemoteTarball [ 'https://registry.npmjs.org/elementtree/-/elementtree-0.1.5.tgz',
+627 verbose addRemoteTarball   '8d5fd80440b4be806c4a01b63914b40e0daab9ff' ]
+628 http GET https://registry.npmjs.org/request/-/request-2.22.0.tgz
+629 silly lockFile ab5efc36-pmjs-org-colors-colors-0-6-2-tgz https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+630 verbose lock https://registry.npmjs.org/colors/-/colors-0.6.2.tgz /Users/brenothales/.npm/ab5efc36-pmjs-org-colors-colors-0-6-2-tgz.lock
+631 http GET https://registry.npmjs.org/ripple-emulator/-/ripple-emulator-0.9.18.tgz
+632 info retry fetch attempt 1 at 17:14:11
+633 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550451402-0.7072170483879745/tmp.tgz
+634 verbose addRemoteTarball [ 'https://registry.npmjs.org/colors/-/colors-0.6.2.tgz',
+634 verbose addRemoteTarball   '2423fe6678ac0c5dae8852e5d0e5be08c997abcc' ]
+635 info retry fetch attempt 1 at 17:14:11
+636 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550451407-0.48430363135412335/tmp.tgz
+637 http GET https://registry.npmjs.org/elementtree/-/elementtree-0.1.5.tgz
+638 http GET https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+639 silly lockFile 7c21c0eb-plist-0-4-3 plist@0.4.3
+640 silly lockFile 7c21c0eb-plist-0-4-3 plist@0.4.3
+641 silly lockFile ee0531ac-plist-0-4-x plist@0.4.x
+642 silly lockFile ee0531ac-plist-0-4-x plist@0.4.x
+643 info retry fetch attempt 2 at 17:14:21
+644 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550375476-0.6986114238388836/tmp.tgz
+645 info retry fetch attempt 2 at 17:14:21
+646 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550375476-0.7946151746436954/tmp.tgz
+647 http GET https://registry.npmjs.org/ncallbacks/-/ncallbacks-1.0.0.tgz
+648 http GET https://registry.npmjs.org/semver/-/semver-1.1.0.tgz
+649 error fetch failed https://registry.npmjs.org/ripple-emulator/-/ripple-emulator-0.9.18.tgz
+650 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+651 error fetch failed https://registry.npmjs.org/request/-/request-2.22.0.tgz
+652 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+653 silly registry.get cb [ 304, undefined ]
+654 verbose etag npm from cache
+655 silly registry.get cb [ 304, undefined ]
+656 verbose etag glob from cache
+657 silly registry.get cb [ 304, undefined ]
+658 verbose etag shelljs/0.1.2 from cache
+659 silly registry.get cb [ 304, undefined ]
+660 verbose etag follow-redirects from cache
+661 silly registry.get cb [ 304, undefined ]
+662 verbose etag express/3.0.0 from cache
+663 silly addNameRange number 2 { name: 'npm', range: '>=1.3.0-0 <1.4.0-0', hasData: true }
+664 silly addNameRange versions [ 'npm',
+664 silly addNameRange   [ '1.1.25',
+664 silly addNameRange     '1.2.32',
+664 silly addNameRange     '1.3.2',
+664 silly addNameRange     '1.3.4',
+664 silly addNameRange     '1.2.20',
+664 silly addNameRange     '1.2.21',
+664 silly addNameRange     '1.2.22',
+664 silly addNameRange     '1.2.23',
+664 silly addNameRange     '1.2.24',
+664 silly addNameRange     '1.2.25',
+664 silly addNameRange     '1.2.27',
+664 silly addNameRange     '1.2.28',
+664 silly addNameRange     '1.2.30',
+664 silly addNameRange     '1.2.31',
+664 silly addNameRange     '1.3.0',
+664 silly addNameRange     '1.3.1',
+664 silly addNameRange     '1.2.19',
+664 silly addNameRange     '1.1.70',
+664 silly addNameRange     '1.1.71',
+664 silly addNameRange     '1.3.5',
+664 silly addNameRange     '1.3.6',
+664 silly addNameRange     '1.3.7',
+664 silly addNameRange     '1.3.8',
+664 silly addNameRange     '1.3.9',
+664 silly addNameRange     '1.3.10',
+664 silly addNameRange     '1.3.11' ] ]
+665 verbose addNamed [ 'npm', '1.3.11' ]
+666 verbose addNamed [ '1.3.11', '1.3.11' ]
+667 silly lockFile 39a00ceb-npm-1-3-11 npm@1.3.11
+668 verbose lock npm@1.3.11 /Users/brenothales/.npm/39a00ceb-npm-1-3-11.lock
+669 silly addNameRange number 2 { name: 'glob', range: '>=3.2.0-0 <3.3.0-0', hasData: true }
+670 silly addNameRange versions [ 'glob',
+670 silly addNameRange   [ '1.1.0',
+670 silly addNameRange     '2.0.9',
+670 silly addNameRange     '2.0.8',
+670 silly addNameRange     '2.0.7',
+670 silly addNameRange     '2.1.0',
+670 silly addNameRange     '3.0.0',
+670 silly addNameRange     '3.0.1',
+670 silly addNameRange     '3.1.0',
+670 silly addNameRange     '3.1.1',
+670 silly addNameRange     '3.1.2',
+670 silly addNameRange     '3.1.3',
+670 silly addNameRange     '3.1.4',
+670 silly addNameRange     '3.1.5',
+670 silly addNameRange     '3.1.6',
+670 silly addNameRange     '3.1.7',
+670 silly addNameRange     '3.1.9',
+670 silly addNameRange     '3.1.10',
+670 silly addNameRange     '3.1.11',
+670 silly addNameRange     '3.1.12',
+670 silly addNameRange     '3.1.13',
+670 silly addNameRange     '3.1.14',
+670 silly addNameRange     '3.1.15',
+670 silly addNameRange     '3.1.16',
+670 silly addNameRange     '3.1.17',
+670 silly addNameRange     '3.1.18',
+670 silly addNameRange     '3.1.19',
+670 silly addNameRange     '3.1.20',
+670 silly addNameRange     '3.1.21',
+670 silly addNameRange     '3.2.0',
+670 silly addNameRange     '3.2.1',
+670 silly addNameRange     '3.2.3',
+670 silly addNameRange     '3.2.4',
+670 silly addNameRange     '3.2.5',
+670 silly addNameRange     '3.2.6',
+670 silly addNameRange     '3.2.7',
+670 silly addNameRange     '3.2.8',
+670 silly addNameRange     '3.2.9' ] ]
+671 verbose addNamed [ 'glob', '3.2.9' ]
+672 verbose addNamed [ '3.2.9', '3.2.9' ]
+673 silly lockFile 311bb488-glob-3-2-9 glob@3.2.9
+674 verbose lock glob@3.2.9 /Users/brenothales/.npm/311bb488-glob-3-2-9.lock
+675 silly addNameRange number 2 { name: 'follow-redirects',
+675 silly addNameRange   range: '>=0.0.0-0 <0.1.0-0',
+675 silly addNameRange   hasData: true }
+676 silly addNameRange versions [ 'follow-redirects', [ '0.0.1', '0.0.2', '0.0.3' ] ]
+677 verbose addNamed [ 'follow-redirects', '0.0.3' ]
+678 verbose addNamed [ '0.0.3', '0.0.3' ]
+679 silly lockFile 1b151ec7-follow-redirects-0-0-3 follow-redirects@0.0.3
+680 verbose lock follow-redirects@0.0.3 /Users/brenothales/.npm/1b151ec7-follow-redirects-0-0-3.lock
+681 silly lockFile e652873a-js-org-shelljs-shelljs-0-1-2-tgz https://registry.npmjs.org/shelljs/-/shelljs-0.1.2.tgz
+682 verbose lock https://registry.npmjs.org/shelljs/-/shelljs-0.1.2.tgz /Users/brenothales/.npm/e652873a-js-org-shelljs-shelljs-0-1-2-tgz.lock
+683 error fetch failed https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+684 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+685 error fetch failed https://registry.npmjs.org/elementtree/-/elementtree-0.1.5.tgz
+686 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+687 silly lockFile c3d3d32d-js-org-express-express-3-0-0-tgz https://registry.npmjs.org/express/-/express-3.0.0.tgz
+688 verbose lock https://registry.npmjs.org/express/-/express-3.0.0.tgz /Users/brenothales/.npm/c3d3d32d-js-org-express-express-3-0-0-tgz.lock
+689 verbose addRemoteTarball [ 'https://registry.npmjs.org/shelljs/-/shelljs-0.1.2.tgz',
+689 verbose addRemoteTarball   '1619ff4e5267f669be14595821be1b716c7c74c0' ]
+690 info retry fetch attempt 1 at 17:15:27
+691 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550527112-0.2586420732550323/tmp.tgz
+692 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-3.0.0.tgz',
+692 verbose addRemoteTarball   '41e202f3627ea442be9e86d5ec51246ad72339ed' ]
+693 info retry fetch attempt 1 at 17:15:27
+694 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550527209-0.5311449428554624/tmp.tgz
+695 silly lockFile 910cc727-try-npmjs-org-npm-npm-1-3-11-tgz https://registry.npmjs.org/npm/-/npm-1.3.11.tgz
+696 verbose lock https://registry.npmjs.org/npm/-/npm-1.3.11.tgz /Users/brenothales/.npm/910cc727-try-npmjs-org-npm-npm-1-3-11-tgz.lock
+697 http GET https://registry.npmjs.org/shelljs/-/shelljs-0.1.2.tgz
+698 silly lockFile e3c9a9f3-ry-npmjs-org-glob-glob-3-2-9-tgz https://registry.npmjs.org/glob/-/glob-3.2.9.tgz
+699 verbose lock https://registry.npmjs.org/glob/-/glob-3.2.9.tgz /Users/brenothales/.npm/e3c9a9f3-ry-npmjs-org-glob-glob-3-2-9-tgz.lock
+700 verbose addRemoteTarball [ 'https://registry.npmjs.org/npm/-/npm-1.3.11.tgz',
+700 verbose addRemoteTarball   '4bf7f005fe1038c4fe9207603b961c97bd0ba5a3' ]
+701 http GET https://registry.npmjs.org/express/-/express-3.0.0.tgz
+702 verbose addRemoteTarball [ 'https://registry.npmjs.org/glob/-/glob-3.2.9.tgz',
+702 verbose addRemoteTarball   '56af2289aa43d07d7702666480373eb814d91d40' ]
+703 info retry fetch attempt 1 at 17:15:27
+704 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550527235-0.24545834166929126/tmp.tgz
+705 info retry fetch attempt 1 at 17:15:27
+706 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550527238-0.4721453431993723/tmp.tgz
+707 http GET https://registry.npmjs.org/npm/-/npm-1.3.11.tgz
+708 http GET https://registry.npmjs.org/glob/-/glob-3.2.9.tgz
+709 silly lockFile 1b151ec7-follow-redirects-0-0-3 follow-redirects@0.0.3
+710 silly lockFile 1b151ec7-follow-redirects-0-0-3 follow-redirects@0.0.3
+711 silly lockFile 7a121702-follow-redirects-0-0-x follow-redirects@0.0.x
+712 silly lockFile 7a121702-follow-redirects-0-0-x follow-redirects@0.0.x
+713 error fetch failed https://registry.npmjs.org/ncallbacks/-/ncallbacks-1.0.0.tgz
+714 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+715 info retry fetch attempt 2 at 17:15:37
+716 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550451337-0.20223601255565882/tmp.tgz
+717 http GET https://registry.npmjs.org/ripple-emulator/-/ripple-emulator-0.9.18.tgz
+718 info retry fetch attempt 2 at 17:15:37
+719 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550451336-0.044319584500044584/tmp.tgz
+720 http GET https://registry.npmjs.org/request/-/request-2.22.0.tgz
+721 info retry fetch attempt 2 at 17:15:37
+722 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550451407-0.48430363135412335/tmp.tgz
+723 info retry fetch attempt 2 at 17:15:37
+724 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550451402-0.7072170483879745/tmp.tgz
+725 http GET https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+726 http GET https://registry.npmjs.org/elementtree/-/elementtree-0.1.5.tgz
+727 info retry fetch attempt 3 at 17:16:36
+728 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550375476-0.6986114238388836/tmp.tgz
+729 http GET https://registry.npmjs.org/ncallbacks/-/ncallbacks-1.0.0.tgz
+730 silly registry.get cb [ 304, undefined ]
+731 verbose etag xcode/0.5.1 from cache
+732 silly registry.get cb [ 304, undefined ]
+733 verbose etag prompt/0.2.7 from cache
+734 silly registry.get cb [ 304, undefined ]
+735 verbose etag tar from cache
+736 silly registry.get cb [ 304, undefined ]
+737 verbose etag open/0.0.3 from cache
+738 silly registry.get cb [ 304, undefined ]
+739 verbose etag plugman from cache
+740 error fetch failed https://registry.npmjs.org/semver/-/semver-1.1.0.tgz
+741 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+742 silly addNameRange number 2 { name: 'tar', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+743 silly addNameRange versions [ 'tar',
+743 silly addNameRange   [ '0.0.1',
+743 silly addNameRange     '0.1.0',
+743 silly addNameRange     '0.1.2',
+743 silly addNameRange     '0.1.3',
+743 silly addNameRange     '0.1.4',
+743 silly addNameRange     '0.1.5',
+743 silly addNameRange     '0.1.6',
+743 silly addNameRange     '0.1.7',
+743 silly addNameRange     '0.1.8',
+743 silly addNameRange     '0.1.9',
+743 silly addNameRange     '0.1.10',
+743 silly addNameRange     '0.1.11',
+743 silly addNameRange     '0.1.12',
+743 silly addNameRange     '0.1.13',
+743 silly addNameRange     '0.1.14',
+743 silly addNameRange     '0.1.15',
+743 silly addNameRange     '0.1.16',
+743 silly addNameRange     '0.1.17',
+743 silly addNameRange     '0.1.18',
+743 silly addNameRange     '0.1.19' ] ]
+744 verbose addNamed [ 'tar', '0.1.19' ]
+745 verbose addNamed [ '0.1.19', '0.1.19' ]
+746 silly lockFile 9cd6579d-tar-0-1-19 tar@0.1.19
+747 verbose lock tar@0.1.19 /Users/brenothales/.npm/9cd6579d-tar-0-1-19.lock
+748 silly lockFile 69c434c4-pmjs-org-prompt-prompt-0-2-7-tgz https://registry.npmjs.org/prompt/-/prompt-0.2.7.tgz
+749 verbose lock https://registry.npmjs.org/prompt/-/prompt-0.2.7.tgz /Users/brenothales/.npm/69c434c4-pmjs-org-prompt-prompt-0-2-7-tgz.lock
+750 silly lockFile 7313b3dd--npmjs-org-xcode-xcode-0-5-1-tgz https://registry.npmjs.org/xcode/-/xcode-0.5.1.tgz
+751 verbose lock https://registry.npmjs.org/xcode/-/xcode-0.5.1.tgz /Users/brenothales/.npm/7313b3dd--npmjs-org-xcode-xcode-0-5-1-tgz.lock
+752 verbose addRemoteTarball [ 'https://registry.npmjs.org/prompt/-/prompt-0.2.7.tgz',
+752 verbose addRemoteTarball   'a4aa2f04dbbfa9eee4d658d59e5f32bde10dc01d' ]
+753 verbose addRemoteTarball [ 'https://registry.npmjs.org/xcode/-/xcode-0.5.1.tgz',
+753 verbose addRemoteTarball   'c67f2615a3c83f003b193d179ff0da3e536fb43c' ]
+754 info retry fetch attempt 1 at 17:16:42
+755 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550602450-0.48902192967943847/tmp.tgz
+756 info retry fetch attempt 1 at 17:16:42
+757 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550602451-0.48906359053216875/tmp.tgz
+758 silly addNameRange number 2 { name: 'plugman', range: '>=0.13.0-0 <0.14.0-0', hasData: true }
+759 silly addNameRange versions [ 'plugman',
+759 silly addNameRange   [ '0.5.6',
+759 silly addNameRange     '0.5.7',
+759 silly addNameRange     '0.5.8',
+759 silly addNameRange     '0.5.9',
+759 silly addNameRange     '0.6.0',
+759 silly addNameRange     '0.6.1',
+759 silly addNameRange     '0.6.2',
+759 silly addNameRange     '0.6.3',
+759 silly addNameRange     '0.7.0',
+759 silly addNameRange     '0.7.1',
+759 silly addNameRange     '0.7.2',
+759 silly addNameRange     '0.7.3',
+759 silly addNameRange     '0.7.4',
+759 silly addNameRange     '0.7.5',
+759 silly addNameRange     '0.7.6',
+759 silly addNameRange     '0.7.7',
+759 silly addNameRange     '0.7.8',
+759 silly addNameRange     '0.7.9',
+759 silly addNameRange     '0.7.10',
+759 silly addNameRange     '0.7.11',
+759 silly addNameRange     '0.7.12',
+759 silly addNameRange     '0.7.13',
+759 silly addNameRange     '0.7.14',
+759 silly addNameRange     '0.8.0',
+759 silly addNameRange     '0.8.1',
+759 silly addNameRange     '0.8.2',
+759 silly addNameRange     '0.9.0',
+759 silly addNameRange     '0.9.1',
+759 silly addNameRange     '0.9.2',
+759 silly addNameRange     '0.9.3',
+759 silly addNameRange     '0.9.4',
+759 silly addNameRange     '0.9.5',
+759 silly addNameRange     '0.9.6',
+759 silly addNameRange     '0.9.7',
+759 silly addNameRange     '0.9.8',
+759 silly addNameRange     '0.9.9',
+759 silly addNameRange     '0.9.10',
+759 silly addNameRange     '0.9.11',
+759 silly addNameRange     '0.9.20',
+759 silly addNameRange     '0.9.21',
+759 silly addNameRange     '0.9.22',
+759 silly addNameRange     '0.9.23',
+759 silly addNameRange     '0.10.0',
+759 silly addNameRange     '0.10.1',
+759 silly addNameRange     '0.11.0',
+759 silly addNameRange     '0.12.0',
+759 silly addNameRange     '0.13.0' ] ]
+760 verbose addNamed [ 'plugman', '0.13.0' ]
+761 verbose addNamed [ '0.13.0', '0.13.0' ]
+762 silly lockFile 2e31ed9b-plugman-0-13-0 plugman@0.13.0
+763 verbose lock plugman@0.13.0 /Users/brenothales/.npm/2e31ed9b-plugman-0-13-0.lock
+764 silly lockFile 6505742a-ry-npmjs-org-open-open-0-0-3-tgz https://registry.npmjs.org/open/-/open-0.0.3.tgz
+765 verbose lock https://registry.npmjs.org/open/-/open-0.0.3.tgz /Users/brenothales/.npm/6505742a-ry-npmjs-org-open-open-0-0-3-tgz.lock
+766 http GET https://registry.npmjs.org/prompt/-/prompt-0.2.7.tgz
+767 http GET https://registry.npmjs.org/xcode/-/xcode-0.5.1.tgz
+768 error fetch failed https://registry.npmjs.org/npm/-/npm-1.3.11.tgz
+769 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+770 error fetch failed https://registry.npmjs.org/express/-/express-3.0.0.tgz
+771 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+772 error fetch failed https://registry.npmjs.org/shelljs/-/shelljs-0.1.2.tgz
+773 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+774 verbose addRemoteTarball [ 'https://registry.npmjs.org/open/-/open-0.0.3.tgz',
+774 verbose addRemoteTarball   'fa377f4ff308212d92a9b8e6395240854646a713' ]
+775 info retry fetch attempt 1 at 17:16:42
+776 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550602462-0.12111874483525753/tmp.tgz
+777 http GET https://registry.npmjs.org/open/-/open-0.0.3.tgz
+778 silly lockFile 9cd6579d-tar-0-1-19 tar@0.1.19
+779 silly lockFile 9cd6579d-tar-0-1-19 tar@0.1.19
+780 silly lockFile 0a1eb69c-tar-0-1-x tar@0.1.x
+781 silly lockFile 0a1eb69c-tar-0-1-x tar@0.1.x
+782 silly lockFile 2e31ed9b-plugman-0-13-0 plugman@0.13.0
+783 silly lockFile 2e31ed9b-plugman-0-13-0 plugman@0.13.0
+784 silly lockFile 5bebcb72-plugman-0-13-x plugman@0.13.x
+785 silly lockFile 5bebcb72-plugman-0-13-x plugman@0.13.x
+786 error fetch failed https://registry.npmjs.org/glob/-/glob-3.2.9.tgz
+787 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+788 info retry fetch attempt 2 at 17:16:52
+789 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550527235-0.24545834166929126/tmp.tgz
+790 http GET https://registry.npmjs.org/npm/-/npm-1.3.11.tgz
+791 info retry fetch attempt 2 at 17:16:52
+792 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550527209-0.5311449428554624/tmp.tgz
+793 http GET https://registry.npmjs.org/express/-/express-3.0.0.tgz
+794 info retry fetch attempt 2 at 17:16:52
+795 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550527112-0.2586420732550323/tmp.tgz
+796 http GET https://registry.npmjs.org/shelljs/-/shelljs-0.1.2.tgz
+797 info retry fetch attempt 2 at 17:17:02
+798 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550527238-0.4721453431993723/tmp.tgz
+799 http GET https://registry.npmjs.org/glob/-/glob-3.2.9.tgz
+800 info retry fetch attempt 3 at 17:17:42
+801 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550375476-0.7946151746436954/tmp.tgz
+802 http GET https://registry.npmjs.org/semver/-/semver-1.1.0.tgz
+803 error fetch failed https://registry.npmjs.org/ripple-emulator/-/ripple-emulator-0.9.18.tgz
+804 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+805 silly registry.get cb [ 304, undefined ]
+806 verbose etag mime from cache
+807 silly registry.get cb [ 304, undefined ]
+808 verbose etag optimist/0.6.0 from cache
+809 silly addNameRange number 2 { name: 'mime', range: '>=1.2.11-0 <1.3.0-0', hasData: true }
+810 silly addNameRange versions [ 'mime',
+810 silly addNameRange   [ '1.0.0',
+810 silly addNameRange     '1.1.0',
+810 silly addNameRange     '1.2.1',
+810 silly addNameRange     '1.2.2',
+810 silly addNameRange     '1.2.3',
+810 silly addNameRange     '1.2.4',
+810 silly addNameRange     '1.2.5',
+810 silly addNameRange     '1.2.6',
+810 silly addNameRange     '1.2.7',
+810 silly addNameRange     '1.2.8',
+810 silly addNameRange     '1.2.9',
+810 silly addNameRange     '1.2.10',
+810 silly addNameRange     '1.2.11' ] ]
+811 verbose addNamed [ 'mime', '1.2.11' ]
+812 verbose addNamed [ '1.2.11', '1.2.11' ]
+813 silly lockFile c4b0741f-mime-1-2-11 mime@1.2.11
+814 verbose lock mime@1.2.11 /Users/brenothales/.npm/c4b0741f-mime-1-2-11.lock
+815 silly lockFile 8def609d--org-optimist-optimist-0-6-0-tgz https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+816 verbose lock https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz /Users/brenothales/.npm/8def609d--org-optimist-optimist-0-6-0-tgz.lock
+817 verbose addRemoteTarball [ 'https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz',
+817 verbose addRemoteTarball   '69424826f3405f79f142e6fc3d9ae58d4dbb9200' ]
+818 info retry fetch attempt 1 at 17:17:57
+819 verbose fetch to= /Users/brenothales/tmp/npm-24119/1398550677858-0.16131057124584913/tmp.tgz
+820 http GET https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+821 error fetch failed https://registry.npmjs.org/elementtree/-/elementtree-0.1.5.tgz
+822 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+823 error fetch failed https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+824 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+825 error fetch failed https://registry.npmjs.org/request/-/request-2.22.0.tgz
+826 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+827 silly lockFile c4b0741f-mime-1-2-11 mime@1.2.11
+828 silly lockFile c4b0741f-mime-1-2-11 mime@1.2.11
+829 silly lockFile be28297f-mime-1-2-11 mime@~1.2.11
+830 silly lockFile be28297f-mime-1-2-11 mime@~1.2.11
+831 error fetch failed https://registry.npmjs.org/ncallbacks/-/ncallbacks-1.0.0.tgz
+832 silly lockFile c99c86b3--ncallbacks-ncallbacks-1-0-0-tgz https://registry.npmjs.org/ncallbacks/-/ncallbacks-1.0.0.tgz
+833 silly lockFile c99c86b3--ncallbacks-ncallbacks-1-0-0-tgz https://registry.npmjs.org/ncallbacks/-/ncallbacks-1.0.0.tgz
+834 silly lockFile 01c02423-ncallbacks-1-0-0 ncallbacks@1.0.0
+835 silly lockFile 01c02423-ncallbacks-1-0-0 ncallbacks@1.0.0
+836 verbose about to build /usr/local/lib/node_modules/cordova
+837 info /usr/local/lib/node_modules/cordova unbuild
+838 info preuninstall cordova@3.1.0-0.1.0
+839 info uninstall cordova@3.1.0-0.1.0
+840 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild cordova@3.1.0-0.1.0
+841 verbose /usr/local/bin,[object Object] binRoot
+842 info postuninstall cordova@3.1.0-0.1.0
+843 error Error: connect ETIMEDOUT
+843 error     at errnoException (net.js:901:11)
+843 error     at Object.afterConnect [as oncomplete] (net.js:892:19)
+844 error If you need help, you may report this log at:
+844 error     <http://github.com/isaacs/npm/issues>
+844 error or email it to:
+844 error     <npm-@googlegroups.com>
+845 error System Darwin 13.1.0
+846 error command "node" "/usr/local/bin/npm" "install" "-g" "cordova"
+847 error cwd /Users/brenothales/phonegap_app/riobranco
+848 error node -v v0.10.12
+849 error npm -v 1.3.1
+850 error syscall connect
+851 error code ETIMEDOUT
+852 error errno ETIMEDOUT
+853 verbose exit [ 1, true ]

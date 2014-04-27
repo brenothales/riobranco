@@ -1,0 +1,22 @@
+<div id="schedule-prompt">
+    <div class="wrapper">
+        <form class="schedule-form">
+            <div class="top">
+                <div class="triangle"></div>
+                <span class="events title">{{events_title}}</span>
+                <span class="my-plans title">{{my_plans_title}}</span>
+            </div>
+            <div class="content">
+                <input type="text" class="location" value="Walt Disney Concert Hall" readonly>
+                <input type="datetime-local" class="date" min="2013-01-01T12:00:00" max="2046-07-04T12:00">
+                <textarea type="text" class="note" placeholder="{{default_note}}"></textarea>
+            </div>
+            <div class="bottom">
+                <input type="button" class="close" value="{{close}}">
+                <input type="submit" class="save" value="{{save}}">
+                <input type="button" class="cancel" value="{{cancel}}">
+                <div class="triangle"></div>
+            </div>
+        </form>
+    </div>
+</div>

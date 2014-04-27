@@ -1,0 +1,11 @@
+<div id="mood" class="section">
+    <div class="top move-container"></div>
+    {{#items}}
+    <div class="mood-item" style="background-color:{{color}}" data-id="{{id}}" data-link="{{link}}">
+        <div class="text">{{name}}</div>
+        <div class="num" style="color:{{highlight_color}}" ></div>
+        <div class="arrow"></div>
+    </div>
+    {{/items}}
+    <div class="bottom move-container"></div>
+</div>

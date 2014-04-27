@@ -1,0 +1,22 @@
+<div id="about">
+    <div class="wrapper bss-vcenter">
+        <div class="bss-outer">
+        <div class="bss-inner">
+            <div class="logo-text">{{logo_text}}</div>
+            <div class="copy">{{copy}}
+                <a href="https://twitter.com/share" class="twitter-share-button" data-text="Explore LA through the prism of custom filters!" data-via="aquialli" data-count="none" data-hashtags="customfilters" data-dnt="true">Tweet</a>
+            </div>
+            <div class="share-title">{{share_title}}</div>
+            <div class="share-links">
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><br>
+                <a href="http://twitter.com/aquialli">@aquialli</a>
+            </div>
+
+            <div class="icons-container">
+                {{#icons}}
+                <a href="{{link}}" class="icon {{id}}" target="_blank">{{name}}</a>
+                {{/icons}}
+            </div>
+        </div>
+    </div>
+</div>
