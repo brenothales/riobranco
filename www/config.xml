@@ -2,9 +2,9 @@
 
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/2.0"
+        xmlns:gap = "http://phonegap.com/ns/2.1"
         id        = "com.phonegap.aquialli"
-        version   = "2.0.0">
+        version   = "2.0.1">
 
     <name>aquialli</name>
 
